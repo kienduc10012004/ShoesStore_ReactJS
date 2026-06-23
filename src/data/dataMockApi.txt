@@ -1,0 +1,3272 @@
+[
+  {
+    "id": "1",
+    "name": "HOOPS MID CLASSIC SHOES",
+    "alias": "hoops-mid-classic-shoes",
+    "brand": "Adidas",
+    "type": "high-top",
+    "typeName": "Giày cổ cao",
+    "gender": [
+      "boy",
+      "girl"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42
+    ],
+    "price": 2390000,
+    "discount": 20,
+    "quantity": 29,
+    "importQuantity": 30,
+    "deleted": false,
+    "feature": true,
+    "hasGift": true,
+    "giftName": "",
+    "image": "/img-shoes/high-top/adidas/HOOPS MID CLASSIC SHOES-boy-girl/den/HOOPS_MID_CLASSIC_SHOES_Black_KI1086_01_00_standard-01.avif",
+    "imgLink": "/img-shoes/high-top/adidas/HOOPS MID CLASSIC SHOES-boy-girl/den/HOOPS_MID_CLASSIC_SHOES_Black_KI1086_01_00_standard-01.avif",
+    "shortDescription": "Thiết kế hiện đại, dễ phối đồ, phù hợp sử dụng hằng ngày.",
+    "description": "Sản phẩm được thiết kế trẻ trung, dễ phối đồ, phù hợp để đi học, đi làm, đi chơi và sử dụng hằng ngày. Form dáng hiện đại, chất liệu bền bỉ, mang lại cảm giác thoải mái khi di chuyển.",
+    "categories": [
+      {
+        "id": "ADIDAS",
+        "category": "ADIDAS"
+      }
+    ],
+    "relatedProducts": [
+      2,
+      3,
+      4
+    ],
+    "colors": [
+      {
+        "id": "den",
+        "name": "Đen",
+        "folderName": "den",
+        "defaultImage": "/img-shoes/high-top/adidas/HOOPS MID CLASSIC SHOES-boy-girl/den/HOOPS_MID_CLASSIC_SHOES_Black_KI1086_01_00_standard-01.avif",
+        "detailImages": [
+          "/img-shoes/high-top/adidas/HOOPS MID CLASSIC SHOES-boy-girl/den/HOOPS_MID_CLASSIC_SHOES_Black_KI1086_01_00_standard-01.avif",
+          "/img-shoes/high-top/adidas/HOOPS MID CLASSIC SHOES-boy-girl/den/HOOPS_MID_CLASSIC_SHOES_Black_KI1086_02_standard_hover-02.avif",
+          "/img-shoes/high-top/adidas/HOOPS MID CLASSIC SHOES-boy-girl/den/HOOPS_MID_CLASSIC_SHOES_Black_KI1086_03_standard-03.avif"
+        ],
+        "images": [
+          "/img-shoes/high-top/adidas/HOOPS MID CLASSIC SHOES-boy-girl/den/HOOPS_MID_CLASSIC_SHOES_Black_KI1086_01_00_standard-01.avif",
+          "/img-shoes/high-top/adidas/HOOPS MID CLASSIC SHOES-boy-girl/den/HOOPS_MID_CLASSIC_SHOES_Black_KI1086_02_standard_hover-02.avif",
+          "/img-shoes/high-top/adidas/HOOPS MID CLASSIC SHOES-boy-girl/den/HOOPS_MID_CLASSIC_SHOES_Black_KI1086_03_standard-03.avif"
+        ],
+        "thumbnail": "/img-shoes/high-top/adidas/HOOPS MID CLASSIC SHOES-boy-girl/den/HOOPS_MID_CLASSIC_SHOES_Black_KI1086_01_00_standard-01.avif"
+      },
+      {
+        "id": "trang",
+        "name": "Trắng",
+        "folderName": "trang",
+        "defaultImage": "/img-shoes/high-top/adidas/HOOPS MID CLASSIC SHOES-boy-girl/trang/HOOPS_MID_CLASSIC_SHOES_White_KI1033_01_00_standard-01.avif",
+        "detailImages": [
+          "/img-shoes/high-top/adidas/HOOPS MID CLASSIC SHOES-boy-girl/trang/HOOPS_MID_CLASSIC_SHOES_White_KI1033_01_00_standard-01.avif",
+          "/img-shoes/high-top/adidas/HOOPS MID CLASSIC SHOES-boy-girl/trang/HOOPS_MID_CLASSIC_SHOES_White_KI1033_02_standard_hover-02.avif",
+          "/img-shoes/high-top/adidas/HOOPS MID CLASSIC SHOES-boy-girl/trang/HOOPS_MID_CLASSIC_SHOES_White_KI1033_03_standard-03.avif"
+        ],
+        "images": [
+          "/img-shoes/high-top/adidas/HOOPS MID CLASSIC SHOES-boy-girl/trang/HOOPS_MID_CLASSIC_SHOES_White_KI1033_01_00_standard-01.avif",
+          "/img-shoes/high-top/adidas/HOOPS MID CLASSIC SHOES-boy-girl/trang/HOOPS_MID_CLASSIC_SHOES_White_KI1033_02_standard_hover-02.avif",
+          "/img-shoes/high-top/adidas/HOOPS MID CLASSIC SHOES-boy-girl/trang/HOOPS_MID_CLASSIC_SHOES_White_KI1033_03_standard-03.avif"
+        ],
+        "thumbnail": "/img-shoes/high-top/adidas/HOOPS MID CLASSIC SHOES-boy-girl/trang/HOOPS_MID_CLASSIC_SHOES_White_KI1033_01_00_standard-01.avif"
+      },
+      {
+        "id": "trang-den",
+        "name": "Trắng / Đen",
+        "folderName": "trang-den",
+        "defaultImage": "/img-shoes/high-top/adidas/HOOPS MID CLASSIC SHOES-boy-girl/trang-den/HOOPS_MID_CLASSIC_SHOES_White_KI1032_01_00_standard-01.avif",
+        "detailImages": [
+          "/img-shoes/high-top/adidas/HOOPS MID CLASSIC SHOES-boy-girl/trang-den/HOOPS_MID_CLASSIC_SHOES_White_KI1032_01_00_standard-01.avif",
+          "/img-shoes/high-top/adidas/HOOPS MID CLASSIC SHOES-boy-girl/trang-den/HOOPS_MID_CLASSIC_SHOES_White_KI1032_02_standard_hover-02.avif",
+          "/img-shoes/high-top/adidas/HOOPS MID CLASSIC SHOES-boy-girl/trang-den/HOOPS_MID_CLASSIC_SHOES_White_KI1032_03_standard-03.avif"
+        ],
+        "images": [
+          "/img-shoes/high-top/adidas/HOOPS MID CLASSIC SHOES-boy-girl/trang-den/HOOPS_MID_CLASSIC_SHOES_White_KI1032_01_00_standard-01.avif",
+          "/img-shoes/high-top/adidas/HOOPS MID CLASSIC SHOES-boy-girl/trang-den/HOOPS_MID_CLASSIC_SHOES_White_KI1032_02_standard_hover-02.avif",
+          "/img-shoes/high-top/adidas/HOOPS MID CLASSIC SHOES-boy-girl/trang-den/HOOPS_MID_CLASSIC_SHOES_White_KI1032_03_standard-03.avif"
+        ],
+        "thumbnail": "/img-shoes/high-top/adidas/HOOPS MID CLASSIC SHOES-boy-girl/trang-den/HOOPS_MID_CLASSIC_SHOES_White_KI1032_01_00_standard-01.avif"
+      }
+    ],
+    "reviews": [
+      {
+        "id": 2,
+        "productId": "1",
+        "username": "Khách hàng 2",
+        "fullName": "Khách hàng 2",
+        "userName": "Khách hàng 2",
+        "rating": 5,
+        "content": "Màu sắc bên ngoài giống hình, dễ phối với nhiều trang phục.",
+        "comment": "Màu sắc bên ngoài giống hình, dễ phối với nhiều trang phục.",
+        "images": [],
+        "createdAt": "00:24:16 21/6/2026",
+        "createdAtISO": "2026-06-20T17:24:16.824Z",
+        "updatedAt": "",
+        "hidden": false
+      },
+      {
+        "id": 3,
+        "productId": "1",
+        "username": "Khách hàng 3",
+        "fullName": "Khách hàng 3",
+        "userName": "Khách hàng 3",
+        "rating": 5,
+        "content": "Đóng gói cẩn thận, giao hàng nhanh, chất lượng tốt.",
+        "comment": "Đóng gói cẩn thận, giao hàng nhanh, chất lượng tốt.",
+        "images": [],
+        "createdAt": "00:24:16 21/6/2026",
+        "createdAtISO": "2026-06-20T17:24:16.824Z",
+        "updatedAt": "",
+        "hidden": false
+      },
+      {
+        "id": 4,
+        "productId": "1",
+        "username": "Khách hàng 4",
+        "fullName": "Khách hàng 4",
+        "userName": "Khách hàng 4",
+        "rating": 5,
+        "content": "Giày nhẹ, đi học và đi chơi đều rất phù hợp.",
+        "comment": "Giày nhẹ, đi học và đi chơi đều rất phù hợp.",
+        "images": [],
+        "createdAt": "00:24:16 21/6/2026",
+        "createdAtISO": "2026-06-20T17:24:16.824Z",
+        "updatedAt": "",
+        "hidden": false
+      },
+      {
+        "id": 5,
+        "productId": "1",
+        "username": "Khách hàng 5",
+        "fullName": "Khách hàng 5",
+        "userName": "Khách hàng 5",
+        "rating": 5,
+        "content": "Chất liệu ổn, đường may chắc chắn, đáng tiền.",
+        "comment": "Chất liệu ổn, đường may chắc chắn, đáng tiền.",
+        "images": [],
+        "createdAt": "00:24:16 21/6/2026",
+        "createdAtISO": "2026-06-20T17:24:16.824Z",
+        "updatedAt": "",
+        "hidden": false
+      },
+      {
+        "id": 6,
+        "productId": "1",
+        "username": "Khách hàng 6",
+        "fullName": "Khách hàng 6",
+        "userName": "Khách hàng 6",
+        "rating": 5,
+        "content": "Mình mang thử thấy thoải mái, không bị đau chân.",
+        "comment": "Mình mang thử thấy thoải mái, không bị đau chân.",
+        "images": [],
+        "createdAt": "00:24:16 21/6/2026",
+        "createdAtISO": "2026-06-20T17:24:16.824Z",
+        "updatedAt": "",
+        "hidden": false
+      },
+      {
+        "id": 7,
+        "productId": "1",
+        "username": "Khách hàng 7",
+        "fullName": "Khách hàng 7",
+        "userName": "Khách hàng 7",
+        "rating": 5,
+        "content": "Kiểu dáng trẻ trung, nhìn ngoài đẹp hơn mong đợi.",
+        "comment": "Kiểu dáng trẻ trung, nhìn ngoài đẹp hơn mong đợi.",
+        "images": [],
+        "createdAt": "00:24:16 21/6/2026",
+        "createdAtISO": "2026-06-20T17:24:16.824Z",
+        "updatedAt": "",
+        "hidden": false
+      },
+      {
+        "id": 8,
+        "productId": "1",
+        "username": "Khách hàng 8",
+        "fullName": "Khách hàng 8",
+        "userName": "Khách hàng 8",
+        "rating": 5,
+        "content": "Sản phẩm đúng mô tả, size vừa chân, rất hài lòng.",
+        "comment": "Sản phẩm đúng mô tả, size vừa chân, rất hài lòng.",
+        "images": [],
+        "createdAt": "00:24:16 21/6/2026",
+        "createdAtISO": "2026-06-20T17:24:16.824Z",
+        "updatedAt": "",
+        "hidden": false
+      },
+      {
+        "id": 9,
+        "productId": "1",
+        "username": "Khách hàng 9",
+        "fullName": "Khách hàng 9",
+        "userName": "Khách hàng 9",
+        "rating": 5,
+        "content": "Đế giày êm, bám tốt, phù hợp sử dụng hằng ngày.",
+        "comment": "Đế giày êm, bám tốt, phù hợp sử dụng hằng ngày.",
+        "images": [],
+        "createdAt": "00:24:16 21/6/2026",
+        "createdAtISO": "2026-06-20T17:24:16.824Z",
+        "updatedAt": "",
+        "hidden": false
+      },
+      {
+        "id": 10,
+        "productId": "1",
+        "username": "Khách hàng 10",
+        "fullName": "Khách hàng 10",
+        "userName": "Khách hàng 10",
+        "rating": 5,
+        "content": "Sẽ tiếp tục ủng hộ shop vì sản phẩm rất chất lượng.",
+        "comment": "Sẽ tiếp tục ủng hộ shop vì sản phẩm rất chất lượng.",
+        "images": [],
+        "createdAt": "00:24:16 21/6/2026",
+        "createdAtISO": "2026-06-20T17:24:16.824Z",
+        "updatedAt": "",
+        "hidden": false
+      }
+    ],
+    "rating": 5,
+    "views": 131,
+    "createdAt": "2026-06-01T09:00:00",
+    "updatedAt": "2026-06-22T17:42:37.342Z",
+    "totalReviews": 9,
+    "salePrice": 1912000,
+    "oldPrice": 2390000
+  },
+  {
+    "id": "2",
+    "name": "Jabbar Hi W Shoes",
+    "alias": "jabbar-hi-w-shoes",
+    "brand": "Adidas",
+    "type": "high-top",
+    "typeName": "Giày cổ cao",
+    "gender": [
+      "boy",
+      "girl"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42
+    ],
+    "price": 2490000,
+    "discount": 12,
+    "quantity": 29,
+    "importQuantity": 30,
+    "deleted": false,
+    "feature": false,
+    "hasGift": false,
+    "giftName": "",
+    "image": "/img-shoes/high-top/adidas/Jabbar Hi W Shoes-unisex/hong-trang/Jabbar_Hi_W_Shoes_Pink_JP9090_01_00_standard.avif",
+    "imgLink": "/img-shoes/high-top/adidas/Jabbar Hi W Shoes-unisex/hong-trang/Jabbar_Hi_W_Shoes_Pink_JP9090_01_00_standard.avif",
+    "shortDescription": "Thiết kế hiện đại, dễ phối đồ, phù hợp sử dụng hằng ngày.",
+    "description": "Sản phẩm được thiết kế trẻ trung, dễ phối đồ, phù hợp để đi học, đi làm, đi chơi và sử dụng hằng ngày. Form dáng hiện đại, chất liệu bền bỉ, mang lại cảm giác thoải mái khi di chuyển.",
+    "categories": [
+      {
+        "id": "ADIDAS",
+        "category": "ADIDAS"
+      }
+    ],
+    "relatedProducts": [
+      3,
+      4,
+      5
+    ],
+    "colors": [
+      {
+        "id": "hong-trang",
+        "name": "Hồng / Trắng",
+        "folderName": "hong-trang",
+        "defaultImage": "/img-shoes/high-top/adidas/Jabbar Hi W Shoes-unisex/hong-trang/Jabbar_Hi_W_Shoes_Pink_JP9090_01_00_standard.avif",
+        "detailImages": [
+          "/img-shoes/high-top/adidas/Jabbar Hi W Shoes-unisex/hong-trang/Jabbar_Hi_W_Shoes_Pink_JP9090_01_00_standard.avif",
+          "/img-shoes/high-top/adidas/Jabbar Hi W Shoes-unisex/hong-trang/Jabbar_Hi_W_Shoes_Pink_JP9090_02_standard-02.avif",
+          "/img-shoes/high-top/adidas/Jabbar Hi W Shoes-unisex/hong-trang/Jabbar_Hi_W_Shoes_Pink_JP9090_03_standard_hover-03.avif"
+        ],
+        "images": [
+          "/img-shoes/high-top/adidas/Jabbar Hi W Shoes-unisex/hong-trang/Jabbar_Hi_W_Shoes_Pink_JP9090_01_00_standard.avif",
+          "/img-shoes/high-top/adidas/Jabbar Hi W Shoes-unisex/hong-trang/Jabbar_Hi_W_Shoes_Pink_JP9090_02_standard-02.avif",
+          "/img-shoes/high-top/adidas/Jabbar Hi W Shoes-unisex/hong-trang/Jabbar_Hi_W_Shoes_Pink_JP9090_03_standard_hover-03.avif"
+        ],
+        "thumbnail": "/img-shoes/high-top/adidas/Jabbar Hi W Shoes-unisex/hong-trang/Jabbar_Hi_W_Shoes_Pink_JP9090_01_00_standard.avif"
+      },
+      {
+        "id": "xanh-trang",
+        "name": "Xanh / Trắng",
+        "folderName": "xanh-trang",
+        "defaultImage": "/img-shoes/high-top/adidas/Jabbar Hi W Shoes-unisex/xanh-trang/Jabbar_Hi_Shoes_Blue_JQ8433_01_00_standard-01.avif",
+        "detailImages": [
+          "/img-shoes/high-top/adidas/Jabbar Hi W Shoes-unisex/xanh-trang/Jabbar_Hi_Shoes_Blue_JQ8433_01_00_standard-01.avif",
+          "/img-shoes/high-top/adidas/Jabbar Hi W Shoes-unisex/xanh-trang/Jabbar_Hi_Shoes_Blue_JQ8433_02_standard-02.avif",
+          "/img-shoes/high-top/adidas/Jabbar Hi W Shoes-unisex/xanh-trang/Jabbar_Hi_Shoes_Blue_JQ8433_03_standard-03.avif"
+        ],
+        "images": [
+          "/img-shoes/high-top/adidas/Jabbar Hi W Shoes-unisex/xanh-trang/Jabbar_Hi_Shoes_Blue_JQ8433_01_00_standard-01.avif",
+          "/img-shoes/high-top/adidas/Jabbar Hi W Shoes-unisex/xanh-trang/Jabbar_Hi_Shoes_Blue_JQ8433_02_standard-02.avif",
+          "/img-shoes/high-top/adidas/Jabbar Hi W Shoes-unisex/xanh-trang/Jabbar_Hi_Shoes_Blue_JQ8433_03_standard-03.avif"
+        ],
+        "thumbnail": "/img-shoes/high-top/adidas/Jabbar Hi W Shoes-unisex/xanh-trang/Jabbar_Hi_Shoes_Blue_JQ8433_01_00_standard-01.avif"
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "userName": "Khách hàng 1",
+        "rating": 5,
+        "comment": "Sản phẩm đẹp, form giày chuẩn và mang rất êm chân."
+      },
+      {
+        "id": 2,
+        "userName": "Khách hàng 2",
+        "rating": 5,
+        "comment": "Màu sắc bên ngoài giống hình, dễ phối với nhiều trang phục."
+      },
+      {
+        "id": 3,
+        "userName": "Khách hàng 3",
+        "rating": 5,
+        "comment": "Đóng gói cẩn thận, giao hàng nhanh, chất lượng tốt."
+      },
+      {
+        "id": 4,
+        "userName": "Khách hàng 4",
+        "rating": 5,
+        "comment": "Giày nhẹ, đi học và đi chơi đều rất phù hợp."
+      },
+      {
+        "id": 5,
+        "userName": "Khách hàng 5",
+        "rating": 5,
+        "comment": "Chất liệu ổn, đường may chắc chắn, đáng tiền.",
+        "hidden": false,
+        "updatedAt": "11:35:13 21/6/2026"
+      },
+      {
+        "id": 6,
+        "userName": "Khách hàng 6",
+        "rating": 5,
+        "comment": "Mình mang thử thấy thoải mái, không bị đau chân."
+      },
+      {
+        "id": 7,
+        "userName": "Khách hàng 7",
+        "rating": 5,
+        "comment": "Kiểu dáng trẻ trung, nhìn ngoài đẹp hơn mong đợi."
+      },
+      {
+        "id": 8,
+        "userName": "Khách hàng 8",
+        "rating": 5,
+        "comment": "Sản phẩm đúng mô tả, size vừa chân, rất hài lòng."
+      },
+      {
+        "id": 9,
+        "userName": "Khách hàng 9",
+        "rating": 5,
+        "comment": "Đế giày êm, bám tốt, phù hợp sử dụng hằng ngày."
+      },
+      {
+        "id": 10,
+        "userName": "Khách hàng 10",
+        "rating": 5,
+        "comment": "Sẽ tiếp tục ủng hộ shop vì sản phẩm rất chất lượng."
+      }
+    ],
+    "rating": 5,
+    "views": 162,
+    "createdAt": "2026-06-02T10:00:00",
+    "updatedAt": "2026-06-22T17:26:06.955Z",
+    "totalReviews": 10,
+    "salePrice": 2191200,
+    "oldPrice": 2490000
+  },
+  {
+    "id": "3",
+    "name": "PRO MODEL Shoes",
+    "alias": "pro-model-shoes",
+    "brand": "Adidas",
+    "type": "high-top",
+    "typeName": "Giày cổ cao",
+    "gender": [
+      "boy",
+      "girl"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42
+    ],
+    "price": 2290000,
+    "discount": 0,
+    "quantity": 30,
+    "importQuantity": 30,
+    "deleted": false,
+    "feature": false,
+    "hasGift": false,
+    "giftName": "",
+    "image": "/img-shoes/high-top/adidas/PRO MODEL Shoes-unisex/den/PRO_MODEL_Shoes_Black_HQ2516_01_00_standard-01.avif",
+    "imgLink": "/img-shoes/high-top/adidas/PRO MODEL Shoes-unisex/den/PRO_MODEL_Shoes_Black_HQ2516_01_00_standard-01.avif",
+    "shortDescription": "Thiết kế hiện đại, dễ phối đồ, phù hợp sử dụng hằng ngày.",
+    "description": "Sản phẩm được thiết kế trẻ trung, dễ phối đồ, phù hợp để đi học, đi làm, đi chơi và sử dụng hằng ngày. Form dáng hiện đại, chất liệu bền bỉ, mang lại cảm giác thoải mái khi di chuyển.",
+    "categories": [
+      {
+        "id": "ADIDAS",
+        "category": "ADIDAS"
+      }
+    ],
+    "relatedProducts": [
+      4,
+      5,
+      6
+    ],
+    "colors": [
+      {
+        "id": "den",
+        "name": "Đen",
+        "folderName": "den",
+        "defaultImage": "/img-shoes/high-top/adidas/PRO MODEL Shoes-unisex/den/PRO_MODEL_Shoes_Black_HQ2516_01_00_standard-01.avif",
+        "detailImages": [
+          "/img-shoes/high-top/adidas/PRO MODEL Shoes-unisex/den/PRO_MODEL_Shoes_Black_HQ2516_01_00_standard-01.avif",
+          "/img-shoes/high-top/adidas/PRO MODEL Shoes-unisex/den/PRO_MODEL_Shoes_Black_HQ2516_02_standard_hover-02.avif",
+          "/img-shoes/high-top/adidas/PRO MODEL Shoes-unisex/den/PRO_MODEL_Shoes_Black_HQ2516_03_standard-03.avif"
+        ],
+        "images": [
+          "/img-shoes/high-top/adidas/PRO MODEL Shoes-unisex/den/PRO_MODEL_Shoes_Black_HQ2516_01_00_standard-01.avif",
+          "/img-shoes/high-top/adidas/PRO MODEL Shoes-unisex/den/PRO_MODEL_Shoes_Black_HQ2516_02_standard_hover-02.avif",
+          "/img-shoes/high-top/adidas/PRO MODEL Shoes-unisex/den/PRO_MODEL_Shoes_Black_HQ2516_03_standard-03.avif"
+        ],
+        "thumbnail": "/img-shoes/high-top/adidas/PRO MODEL Shoes-unisex/den/PRO_MODEL_Shoes_Black_HQ2516_01_00_standard-01.avif"
+      },
+      {
+        "id": "trang",
+        "name": "Trắng",
+        "folderName": "trang",
+        "defaultImage": "/img-shoes/high-top/adidas/PRO MODEL Shoes-unisex/trang/PRO_MODEL_Shoes_White_HQ2515_01_00_standard-01.avif",
+        "detailImages": [
+          "/img-shoes/high-top/adidas/PRO MODEL Shoes-unisex/trang/PRO_MODEL_Shoes_White_HQ2515_01_00_standard-01.avif",
+          "/img-shoes/high-top/adidas/PRO MODEL Shoes-unisex/trang/PRO_MODEL_Shoes_White_HQ2515_02_standard_hover-02.avif",
+          "/img-shoes/high-top/adidas/PRO MODEL Shoes-unisex/trang/PRO_MODEL_Shoes_White_HQ2515_03_standard-03.avif"
+        ],
+        "images": [
+          "/img-shoes/high-top/adidas/PRO MODEL Shoes-unisex/trang/PRO_MODEL_Shoes_White_HQ2515_01_00_standard-01.avif",
+          "/img-shoes/high-top/adidas/PRO MODEL Shoes-unisex/trang/PRO_MODEL_Shoes_White_HQ2515_02_standard_hover-02.avif",
+          "/img-shoes/high-top/adidas/PRO MODEL Shoes-unisex/trang/PRO_MODEL_Shoes_White_HQ2515_03_standard-03.avif"
+        ],
+        "thumbnail": "/img-shoes/high-top/adidas/PRO MODEL Shoes-unisex/trang/PRO_MODEL_Shoes_White_HQ2515_01_00_standard-01.avif"
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "userName": "Khách hàng 1",
+        "rating": 5,
+        "comment": "Sản phẩm đẹp, form giày chuẩn và mang rất êm chân."
+      },
+      {
+        "id": 2,
+        "userName": "Khách hàng 2",
+        "rating": 5,
+        "comment": "Màu sắc bên ngoài giống hình, dễ phối với nhiều trang phục."
+      },
+      {
+        "id": 3,
+        "userName": "Khách hàng 3",
+        "rating": 5,
+        "comment": "Đóng gói cẩn thận, giao hàng nhanh, chất lượng tốt."
+      },
+      {
+        "id": 4,
+        "userName": "Khách hàng 4",
+        "rating": 5,
+        "comment": "Giày nhẹ, đi học và đi chơi đều rất phù hợp."
+      },
+      {
+        "id": 5,
+        "userName": "Khách hàng 5",
+        "rating": 5,
+        "comment": "Chất liệu ổn, đường may chắc chắn, đáng tiền."
+      },
+      {
+        "id": 6,
+        "userName": "Khách hàng 6",
+        "rating": 5,
+        "comment": "Mình mang thử thấy thoải mái, không bị đau chân."
+      },
+      {
+        "id": 7,
+        "userName": "Khách hàng 7",
+        "rating": 5,
+        "comment": "Kiểu dáng trẻ trung, nhìn ngoài đẹp hơn mong đợi."
+      },
+      {
+        "id": 8,
+        "userName": "Khách hàng 8",
+        "rating": 5,
+        "comment": "Sản phẩm đúng mô tả, size vừa chân, rất hài lòng."
+      },
+      {
+        "id": 9,
+        "userName": "Khách hàng 9",
+        "rating": 5,
+        "comment": "Đế giày êm, bám tốt, phù hợp sử dụng hằng ngày."
+      },
+      {
+        "id": 10,
+        "userName": "Khách hàng 10",
+        "rating": 5,
+        "comment": "Sẽ tiếp tục ủng hộ shop vì sản phẩm rất chất lượng."
+      }
+    ],
+    "rating": 5,
+    "views": 193,
+    "createdAt": "2026-06-03T11:00:00",
+    "updatedAt": "2026-06-22T05:15:19.402Z",
+    "totalReviews": 10,
+    "salePrice": 2290000,
+    "oldPrice": 2290000
+  },
+  {
+    "id": "4",
+    "name": "Nike Air Force 1 High",
+    "alias": "nike-air-force-1-high",
+    "brand": "Nike",
+    "type": "high-top",
+    "typeName": "Giày cổ cao",
+    "gender": [
+      "boy",
+      "girl"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42
+    ],
+    "price": 3190000,
+    "discount": 9,
+    "quantity": 30,
+    "importQuantity": 30,
+    "deleted": false,
+    "feature": false,
+    "hasGift": false,
+    "giftName": "",
+    "image": "/img-shoes/high-top/nike/Nike Air Force 1 High-unisex/den-trang-nau/AIR_FORCE_1_HIGH_ESS_NBY_LEA-01.png",
+    "imgLink": "/img-shoes/high-top/nike/Nike Air Force 1 High-unisex/den-trang-nau/AIR_FORCE_1_HIGH_ESS_NBY_LEA-01.png",
+    "shortDescription": "Thiết kế hiện đại, dễ phối đồ, phù hợp sử dụng hằng ngày.",
+    "description": "Sản phẩm được thiết kế trẻ trung, dễ phối đồ, phù hợp để đi học, đi làm, đi chơi và sử dụng hằng ngày. Form dáng hiện đại, chất liệu bền bỉ, mang lại cảm giác thoải mái khi di chuyển.",
+    "categories": [
+      {
+        "id": "NIKE",
+        "category": "NIKE"
+      }
+    ],
+    "relatedProducts": [
+      5,
+      6,
+      7
+    ],
+    "colors": [
+      {
+        "id": "den-trang-nau",
+        "name": "Đen / Trắng / Nâu",
+        "folderName": "den-trang-nau",
+        "defaultImage": "/img-shoes/high-top/nike/Nike Air Force 1 High-unisex/den-trang-nau/AIR_FORCE_1_HIGH_ESS_NBY_LEA-01.png",
+        "detailImages": [
+          "/img-shoes/high-top/nike/Nike Air Force 1 High-unisex/den-trang-nau/AIR_FORCE_1_HIGH_ESS_NBY_LEA-01.png",
+          "/img-shoes/high-top/nike/Nike Air Force 1 High-unisex/den-trang-nau/AIR+FORCE+1+HIGH+ESS+NBY+LEA-02.avif",
+          "/img-shoes/high-top/nike/Nike Air Force 1 High-unisex/den-trang-nau/AIR+FORCE+1+HIGH+ESS+NBY+LEA-03.avif"
+        ],
+        "images": [
+          "/img-shoes/high-top/nike/Nike Air Force 1 High-unisex/den-trang-nau/AIR_FORCE_1_HIGH_ESS_NBY_LEA-01.png",
+          "/img-shoes/high-top/nike/Nike Air Force 1 High-unisex/den-trang-nau/AIR+FORCE+1+HIGH+ESS+NBY+LEA-02.avif",
+          "/img-shoes/high-top/nike/Nike Air Force 1 High-unisex/den-trang-nau/AIR+FORCE+1+HIGH+ESS+NBY+LEA-03.avif"
+        ],
+        "thumbnail": "/img-shoes/high-top/nike/Nike Air Force 1 High-unisex/den-trang-nau/AIR_FORCE_1_HIGH_ESS_NBY_LEA-01.png"
+      },
+      {
+        "id": "hong-xanh-trang",
+        "name": "Hồng / Xanh / Trắng",
+        "folderName": "hong-xanh-trang",
+        "defaultImage": "/img-shoes/high-top/nike/Nike Air Force 1 High-unisex/hong-xanh-trang/W_AIR_FORCE_1_HIGH_ESS_NBY_LEA-01.png",
+        "detailImages": [
+          "/img-shoes/high-top/nike/Nike Air Force 1 High-unisex/hong-xanh-trang/W_AIR_FORCE_1_HIGH_ESS_NBY_LEA-01.png",
+          "/img-shoes/high-top/nike/Nike Air Force 1 High-unisex/hong-xanh-trang/W+AIR+FORCE+1+HIGH+ESS+NBY+LEA-02.avif",
+          "/img-shoes/high-top/nike/Nike Air Force 1 High-unisex/hong-xanh-trang/W+AIR+FORCE+1+HIGH+ESS+NBY+LEA-03.avif"
+        ],
+        "images": [
+          "/img-shoes/high-top/nike/Nike Air Force 1 High-unisex/hong-xanh-trang/W_AIR_FORCE_1_HIGH_ESS_NBY_LEA-01.png",
+          "/img-shoes/high-top/nike/Nike Air Force 1 High-unisex/hong-xanh-trang/W+AIR+FORCE+1+HIGH+ESS+NBY+LEA-02.avif",
+          "/img-shoes/high-top/nike/Nike Air Force 1 High-unisex/hong-xanh-trang/W+AIR+FORCE+1+HIGH+ESS+NBY+LEA-03.avif"
+        ],
+        "thumbnail": "/img-shoes/high-top/nike/Nike Air Force 1 High-unisex/hong-xanh-trang/W_AIR_FORCE_1_HIGH_ESS_NBY_LEA-01.png"
+      },
+      {
+        "id": "trang-xanh-den",
+        "name": "Trắng / Xanh / Đen",
+        "folderName": "trang-xanh-den",
+        "defaultImage": "/img-shoes/high-top/nike/Nike Air Force 1 High-unisex/trang-xanh-den/AIR-FORCE-1-HIGH-ESS-NBY_LEA-01.png",
+        "detailImages": [
+          "/img-shoes/high-top/nike/Nike Air Force 1 High-unisex/trang-xanh-den/AIR-FORCE-1-HIGH-ESS-NBY_LEA-01.png",
+          "/img-shoes/high-top/nike/Nike Air Force 1 High-unisex/trang-xanh-den/AIR+FORCE+1+HIGH+ESS+NBY+LEA-02.avif",
+          "/img-shoes/high-top/nike/Nike Air Force 1 High-unisex/trang-xanh-den/AIR+FORCE+1+HIGH+ESS+NBY+LEA-03.avif"
+        ],
+        "images": [
+          "/img-shoes/high-top/nike/Nike Air Force 1 High-unisex/trang-xanh-den/AIR-FORCE-1-HIGH-ESS-NBY_LEA-01.png",
+          "/img-shoes/high-top/nike/Nike Air Force 1 High-unisex/trang-xanh-den/AIR+FORCE+1+HIGH+ESS+NBY+LEA-02.avif",
+          "/img-shoes/high-top/nike/Nike Air Force 1 High-unisex/trang-xanh-den/AIR+FORCE+1+HIGH+ESS+NBY+LEA-03.avif"
+        ],
+        "thumbnail": "/img-shoes/high-top/nike/Nike Air Force 1 High-unisex/trang-xanh-den/AIR-FORCE-1-HIGH-ESS-NBY_LEA-01.png"
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "userName": "Khách hàng 1",
+        "rating": 5,
+        "comment": "Sản phẩm đẹp, form giày chuẩn và mang rất êm chân."
+      },
+      {
+        "id": 2,
+        "userName": "Khách hàng 2",
+        "rating": 5,
+        "comment": "Màu sắc bên ngoài giống hình, dễ phối với nhiều trang phục."
+      },
+      {
+        "id": 3,
+        "userName": "Khách hàng 3",
+        "rating": 5,
+        "comment": "Đóng gói cẩn thận, giao hàng nhanh, chất lượng tốt."
+      },
+      {
+        "id": 4,
+        "userName": "Khách hàng 4",
+        "rating": 5,
+        "comment": "Giày nhẹ, đi học và đi chơi đều rất phù hợp."
+      },
+      {
+        "id": 5,
+        "userName": "Khách hàng 5",
+        "rating": 5,
+        "comment": "Chất liệu ổn, đường may chắc chắn, đáng tiền."
+      },
+      {
+        "id": 6,
+        "userName": "Khách hàng 6",
+        "rating": 5,
+        "comment": "Mình mang thử thấy thoải mái, không bị đau chân."
+      },
+      {
+        "id": 7,
+        "userName": "Khách hàng 7",
+        "rating": 5,
+        "comment": "Kiểu dáng trẻ trung, nhìn ngoài đẹp hơn mong đợi."
+      },
+      {
+        "id": 8,
+        "userName": "Khách hàng 8",
+        "rating": 5,
+        "comment": "Sản phẩm đúng mô tả, size vừa chân, rất hài lòng."
+      },
+      {
+        "id": 9,
+        "userName": "Khách hàng 9",
+        "rating": 5,
+        "comment": "Đế giày êm, bám tốt, phù hợp sử dụng hằng ngày."
+      },
+      {
+        "id": 10,
+        "userName": "Khách hàng 10",
+        "rating": 5,
+        "comment": "Sẽ tiếp tục ủng hộ shop vì sản phẩm rất chất lượng."
+      }
+    ],
+    "rating": 5,
+    "views": 224,
+    "createdAt": "2026-06-04T12:00:00",
+    "updatedAt": "2026-06-20T16:05:18.785Z"
+  },
+  {
+    "id": "5",
+    "name": "Nike Dunk High",
+    "alias": "nike-dunk-high",
+    "brand": "Nike",
+    "type": "high-top",
+    "typeName": "Giày cổ cao",
+    "gender": [
+      "boy",
+      "girl"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42
+    ],
+    "price": 3290000,
+    "discount": 9,
+    "quantity": 30,
+    "importQuantity": 30,
+    "deleted": false,
+    "feature": true,
+    "hasGift": true,
+    "giftName": "Tặng tất KienShoes",
+    "image": "/img-shoes/high-top/nike/Nike Dunk High-unisex/trang-do/W_NIKE_DUNK_HIGH_NBY_OD-01.png",
+    "imgLink": "/img-shoes/high-top/nike/Nike Dunk High-unisex/trang-do/W_NIKE_DUNK_HIGH_NBY_OD-01.png",
+    "shortDescription": "Thiết kế hiện đại, dễ phối đồ, phù hợp sử dụng hằng ngày.",
+    "description": "Sản phẩm được thiết kế trẻ trung, dễ phối đồ, phù hợp để đi học, đi làm, đi chơi và sử dụng hằng ngày. Form dáng hiện đại, chất liệu bền bỉ, mang lại cảm giác thoải mái khi di chuyển.",
+    "categories": [
+      {
+        "id": "NIKE",
+        "category": "NIKE"
+      }
+    ],
+    "relatedProducts": [
+      6,
+      7,
+      8
+    ],
+    "colors": [
+      {
+        "id": "trang-do",
+        "name": "Trắng / Đỏ",
+        "folderName": "trang-do",
+        "defaultImage": "/img-shoes/high-top/nike/Nike Dunk High-unisex/trang-do/W_NIKE_DUNK_HIGH_NBY_OD-01.png",
+        "detailImages": [
+          "/img-shoes/high-top/nike/Nike Dunk High-unisex/trang-do/W_NIKE_DUNK_HIGH_NBY_OD-01.png",
+          "/img-shoes/high-top/nike/Nike Dunk High-unisex/trang-do/W+NIKE+DUNK+HIGH+NBY+(OD)-02.avif",
+          "/img-shoes/high-top/nike/Nike Dunk High-unisex/trang-do/W+NIKE+DUNK+HIGH+NBY+(OD)-03.avif"
+        ],
+        "images": [
+          "/img-shoes/high-top/nike/Nike Dunk High-unisex/trang-do/W_NIKE_DUNK_HIGH_NBY_OD-01.png",
+          "/img-shoes/high-top/nike/Nike Dunk High-unisex/trang-do/W+NIKE+DUNK+HIGH+NBY+(OD)-02.avif",
+          "/img-shoes/high-top/nike/Nike Dunk High-unisex/trang-do/W+NIKE+DUNK+HIGH+NBY+(OD)-03.avif"
+        ],
+        "thumbnail": "/img-shoes/high-top/nike/Nike Dunk High-unisex/trang-do/W_NIKE_DUNK_HIGH_NBY_OD-01.png"
+      },
+      {
+        "id": "trang-xanh",
+        "name": "Trắng / Xanh",
+        "folderName": "trang-xanh",
+        "defaultImage": "/img-shoes/high-top/nike/Nike Dunk High-unisex/trang-xanh/NIKE_DUNK_HIGH_NBY_OD-01.png",
+        "detailImages": [
+          "/img-shoes/high-top/nike/Nike Dunk High-unisex/trang-xanh/NIKE_DUNK_HIGH_NBY_OD-01.png",
+          "/img-shoes/high-top/nike/Nike Dunk High-unisex/trang-xanh/NIKE+DUNK+HIGH+NBY+(OD)-02.avif",
+          "/img-shoes/high-top/nike/Nike Dunk High-unisex/trang-xanh/NIKE+DUNK+HIGH+NBY+(OD)-03.avif"
+        ],
+        "images": [
+          "/img-shoes/high-top/nike/Nike Dunk High-unisex/trang-xanh/NIKE_DUNK_HIGH_NBY_OD-01.png",
+          "/img-shoes/high-top/nike/Nike Dunk High-unisex/trang-xanh/NIKE+DUNK+HIGH+NBY+(OD)-02.avif",
+          "/img-shoes/high-top/nike/Nike Dunk High-unisex/trang-xanh/NIKE+DUNK+HIGH+NBY+(OD)-03.avif"
+        ],
+        "thumbnail": "/img-shoes/high-top/nike/Nike Dunk High-unisex/trang-xanh/NIKE_DUNK_HIGH_NBY_OD-01.png"
+      },
+      {
+        "id": "xam-trang",
+        "name": "Xám / Trắng",
+        "folderName": "xam-trang",
+        "defaultImage": "/img-shoes/high-top/nike/Nike Dunk High-unisex/xam-trang/NIKE+DUNK+HIGH+NBY+(OD)-01.avif",
+        "detailImages": [
+          "/img-shoes/high-top/nike/Nike Dunk High-unisex/xam-trang/NIKE+DUNK+HIGH+NBY+(OD)-01.avif",
+          "/img-shoes/high-top/nike/Nike Dunk High-unisex/xam-trang/NIKE+DUNK+HIGH+NBY+(OD)-02.avif",
+          "/img-shoes/high-top/nike/Nike Dunk High-unisex/xam-trang/NIKE+DUNK+HIGH+NBY+(OD)-03.avif"
+        ],
+        "images": [
+          "/img-shoes/high-top/nike/Nike Dunk High-unisex/xam-trang/NIKE+DUNK+HIGH+NBY+(OD)-01.avif",
+          "/img-shoes/high-top/nike/Nike Dunk High-unisex/xam-trang/NIKE+DUNK+HIGH+NBY+(OD)-02.avif",
+          "/img-shoes/high-top/nike/Nike Dunk High-unisex/xam-trang/NIKE+DUNK+HIGH+NBY+(OD)-03.avif"
+        ],
+        "thumbnail": "/img-shoes/high-top/nike/Nike Dunk High-unisex/xam-trang/NIKE+DUNK+HIGH+NBY+(OD)-01.avif"
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "userName": "Khách hàng 1",
+        "rating": 5,
+        "comment": "Sản phẩm đẹp, form giày chuẩn và mang rất êm chân."
+      },
+      {
+        "id": 2,
+        "userName": "Khách hàng 2",
+        "rating": 5,
+        "comment": "Màu sắc bên ngoài giống hình, dễ phối với nhiều trang phục."
+      },
+      {
+        "id": 3,
+        "userName": "Khách hàng 3",
+        "rating": 5,
+        "comment": "Đóng gói cẩn thận, giao hàng nhanh, chất lượng tốt."
+      },
+      {
+        "id": 4,
+        "userName": "Khách hàng 4",
+        "rating": 5,
+        "comment": "Giày nhẹ, đi học và đi chơi đều rất phù hợp."
+      },
+      {
+        "id": 5,
+        "userName": "Khách hàng 5",
+        "rating": 5,
+        "comment": "Chất liệu ổn, đường may chắc chắn, đáng tiền."
+      },
+      {
+        "id": 6,
+        "userName": "Khách hàng 6",
+        "rating": 5,
+        "comment": "Mình mang thử thấy thoải mái, không bị đau chân."
+      },
+      {
+        "id": 7,
+        "userName": "Khách hàng 7",
+        "rating": 5,
+        "comment": "Kiểu dáng trẻ trung, nhìn ngoài đẹp hơn mong đợi."
+      },
+      {
+        "id": 8,
+        "userName": "Khách hàng 8",
+        "rating": 5,
+        "comment": "Sản phẩm đúng mô tả, size vừa chân, rất hài lòng."
+      },
+      {
+        "id": 9,
+        "userName": "Khách hàng 9",
+        "rating": 5,
+        "comment": "Đế giày êm, bám tốt, phù hợp sử dụng hằng ngày."
+      },
+      {
+        "id": 10,
+        "userName": "Khách hàng 10",
+        "rating": 5,
+        "comment": "Sẽ tiếp tục ủng hộ shop vì sản phẩm rất chất lượng."
+      }
+    ],
+    "rating": 5,
+    "views": 255,
+    "createdAt": "2026-06-05T13:00:00",
+    "updatedAt": "2026-06-22T17:33:47.194Z",
+    "totalReviews": 10,
+    "salePrice": 2993900,
+    "oldPrice": 3290000
+  },
+  {
+    "id": "6",
+    "name": "Adidas Advancourt Base",
+    "alias": "adidas-advancourt-base",
+    "brand": "Adidas",
+    "type": "low-top",
+    "typeName": "Giày cổ thấp",
+    "gender": [
+      "boy",
+      "girl"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42
+    ],
+    "price": 2490000,
+    "discount": 0,
+    "quantity": 30,
+    "importQuantity": 30,
+    "deleted": false,
+    "feature": false,
+    "hasGift": false,
+    "giftName": "",
+    "image": "/img-shoes/low-top/adidas/Adidas Advancourt Base-unisex/trang/giay-adidas-advancourt-base-nam-nu-trang-camo-01.jpg",
+    "imgLink": "/img-shoes/low-top/adidas/Adidas Advancourt Base-unisex/trang/giay-adidas-advancourt-base-nam-nu-trang-camo-01.jpg",
+    "shortDescription": "Thiết kế hiện đại, dễ phối đồ, phù hợp sử dụng hằng ngày.",
+    "description": "Sản phẩm được thiết kế trẻ trung, dễ phối đồ, phù hợp để đi học, đi làm, đi chơi và sử dụng hằng ngày. Form dáng hiện đại, chất liệu bền bỉ, mang lại cảm giác thoải mái khi di chuyển.",
+    "categories": [
+      {
+        "id": "ADIDAS",
+        "category": "ADIDAS"
+      }
+    ],
+    "relatedProducts": [
+      7,
+      8,
+      9
+    ],
+    "colors": [
+      {
+        "id": "trang",
+        "name": "Trắng",
+        "folderName": "trang",
+        "defaultImage": "/img-shoes/low-top/adidas/Adidas Advancourt Base-unisex/trang/giay-adidas-advancourt-base-nam-nu-trang-camo-01.jpg",
+        "detailImages": [
+          "/img-shoes/low-top/adidas/Adidas Advancourt Base-unisex/trang/giay-adidas-advancourt-base-nam-nu-trang-camo-01.jpg",
+          "/img-shoes/low-top/adidas/Adidas Advancourt Base-unisex/trang/giay-adidas-advancourt-base-nam-nu-trang-camo-02.jpg",
+          "/img-shoes/low-top/adidas/Adidas Advancourt Base-unisex/trang/giay-adidas-advancourt-base-nam-nu-trang-camo-03.jpg"
+        ],
+        "images": [
+          "/img-shoes/low-top/adidas/Adidas Advancourt Base-unisex/trang/giay-adidas-advancourt-base-nam-nu-trang-camo-01.jpg",
+          "/img-shoes/low-top/adidas/Adidas Advancourt Base-unisex/trang/giay-adidas-advancourt-base-nam-nu-trang-camo-02.jpg",
+          "/img-shoes/low-top/adidas/Adidas Advancourt Base-unisex/trang/giay-adidas-advancourt-base-nam-nu-trang-camo-03.jpg"
+        ],
+        "thumbnail": "/img-shoes/low-top/adidas/Adidas Advancourt Base-unisex/trang/giay-adidas-advancourt-base-nam-nu-trang-camo-01.jpg"
+      },
+      {
+        "id": "xam",
+        "name": "Xám",
+        "folderName": "xam",
+        "defaultImage": "/img-shoes/low-top/adidas/Adidas Advancourt Base-unisex/xam/giay-adidas-advancourt-base-nam-xam-01.jpg",
+        "detailImages": [
+          "/img-shoes/low-top/adidas/Adidas Advancourt Base-unisex/xam/giay-adidas-advancourt-base-nam-xam-01.jpg",
+          "/img-shoes/low-top/adidas/Adidas Advancourt Base-unisex/xam/giay-adidas-advancourt-base-nam-xam-02.jpg",
+          "/img-shoes/low-top/adidas/Adidas Advancourt Base-unisex/xam/giay-adidas-advancourt-base-nam-xam-03.jpg"
+        ],
+        "images": [
+          "/img-shoes/low-top/adidas/Adidas Advancourt Base-unisex/xam/giay-adidas-advancourt-base-nam-xam-01.jpg",
+          "/img-shoes/low-top/adidas/Adidas Advancourt Base-unisex/xam/giay-adidas-advancourt-base-nam-xam-02.jpg",
+          "/img-shoes/low-top/adidas/Adidas Advancourt Base-unisex/xam/giay-adidas-advancourt-base-nam-xam-03.jpg"
+        ],
+        "thumbnail": "/img-shoes/low-top/adidas/Adidas Advancourt Base-unisex/xam/giay-adidas-advancourt-base-nam-xam-01.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "userName": "Khách hàng 1",
+        "rating": 5,
+        "comment": "Sản phẩm đẹp, form giày chuẩn và mang rất êm chân."
+      },
+      {
+        "id": 2,
+        "userName": "Khách hàng 2",
+        "rating": 5,
+        "comment": "Màu sắc bên ngoài giống hình, dễ phối với nhiều trang phục."
+      },
+      {
+        "id": 3,
+        "userName": "Khách hàng 3",
+        "rating": 5,
+        "comment": "Đóng gói cẩn thận, giao hàng nhanh, chất lượng tốt."
+      },
+      {
+        "id": 4,
+        "userName": "Khách hàng 4",
+        "rating": 5,
+        "comment": "Giày nhẹ, đi học và đi chơi đều rất phù hợp."
+      },
+      {
+        "id": 5,
+        "userName": "Khách hàng 5",
+        "rating": 5,
+        "comment": "Chất liệu ổn, đường may chắc chắn, đáng tiền."
+      },
+      {
+        "id": 6,
+        "userName": "Khách hàng 6",
+        "rating": 5,
+        "comment": "Mình mang thử thấy thoải mái, không bị đau chân."
+      },
+      {
+        "id": 7,
+        "userName": "Khách hàng 7",
+        "rating": 5,
+        "comment": "Kiểu dáng trẻ trung, nhìn ngoài đẹp hơn mong đợi."
+      },
+      {
+        "id": 8,
+        "userName": "Khách hàng 8",
+        "rating": 5,
+        "comment": "Sản phẩm đúng mô tả, size vừa chân, rất hài lòng."
+      },
+      {
+        "id": 9,
+        "userName": "Khách hàng 9",
+        "rating": 5,
+        "comment": "Đế giày êm, bám tốt, phù hợp sử dụng hằng ngày."
+      },
+      {
+        "id": 10,
+        "userName": "Khách hàng 10",
+        "rating": 5,
+        "comment": "Sẽ tiếp tục ủng hộ shop vì sản phẩm rất chất lượng."
+      }
+    ],
+    "rating": 5,
+    "views": 286,
+    "createdAt": "2026-06-06T14:00:00",
+    "updatedAt": "2026-06-21T05:17:51.270Z",
+    "totalReviews": 10,
+    "salePrice": 2490000,
+    "oldPrice": 2490000
+  },
+  {
+    "id": "7",
+    "name": "Adidas Campus 2",
+    "alias": "adidas-campus-2",
+    "brand": "Adidas",
+    "type": "low-top",
+    "typeName": "Giày cổ thấp",
+    "gender": [
+      "boy",
+      "girl"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42
+    ],
+    "price": 2590000,
+    "discount": 0,
+    "quantity": 29,
+    "importQuantity": 30,
+    "deleted": false,
+    "feature": false,
+    "hasGift": true,
+    "giftName": "Tặng tất KienShoes",
+    "image": "/img-shoes/low-top/adidas/Adidas Campus 2-unisex/do/giay-adidas-campus-2-nam-do-01.jpg",
+    "imgLink": "/img-shoes/low-top/adidas/Adidas Campus 2-unisex/do/giay-adidas-campus-2-nam-do-01.jpg",
+    "shortDescription": "Thiết kế hiện đại, dễ phối đồ, phù hợp sử dụng hằng ngày.",
+    "description": "Sản phẩm được thiết kế trẻ trung, dễ phối đồ, phù hợp để đi học, đi làm, đi chơi và sử dụng hằng ngày. Form dáng hiện đại, chất liệu bền bỉ, mang lại cảm giác thoải mái khi di chuyển.",
+    "categories": [
+      {
+        "id": "ADIDAS",
+        "category": "ADIDAS"
+      }
+    ],
+    "relatedProducts": [
+      8,
+      9,
+      10
+    ],
+    "colors": [
+      {
+        "id": "do",
+        "name": "Đỏ",
+        "folderName": "do",
+        "defaultImage": "/img-shoes/low-top/adidas/Adidas Campus 2-unisex/do/giay-adidas-campus-2-nam-do-01.jpg",
+        "detailImages": [
+          "/img-shoes/low-top/adidas/Adidas Campus 2-unisex/do/giay-adidas-campus-2-nam-do-01.jpg",
+          "/img-shoes/low-top/adidas/Adidas Campus 2-unisex/do/giay-adidas-campus-2-nam-do-02.jpg",
+          "/img-shoes/low-top/adidas/Adidas Campus 2-unisex/do/giay-adidas-campus-2-nam-do-03.jpg"
+        ],
+        "images": [
+          "/img-shoes/low-top/adidas/Adidas Campus 2-unisex/do/giay-adidas-campus-2-nam-do-01.jpg",
+          "/img-shoes/low-top/adidas/Adidas Campus 2-unisex/do/giay-adidas-campus-2-nam-do-02.jpg",
+          "/img-shoes/low-top/adidas/Adidas Campus 2-unisex/do/giay-adidas-campus-2-nam-do-03.jpg"
+        ],
+        "thumbnail": "/img-shoes/low-top/adidas/Adidas Campus 2-unisex/do/giay-adidas-campus-2-nam-do-01.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "productId": "7",
+        "username": "Khách hàng 1",
+        "fullName": "Khách hàng 1",
+        "userName": "Khách hàng 1",
+        "rating": 5,
+        "content": "Sản phẩm đẹp, form giày chuẩn và mang rất êm chân.",
+        "comment": "Sản phẩm đẹp, form giày chuẩn và mang rất êm chân.",
+        "images": [],
+        "createdAt": "00:57:16 23/6/2026",
+        "createdAtISO": "2026-06-22T17:57:16.511Z",
+        "updatedAt": "",
+        "updatedAtISO": "",
+        "hidden": false
+      },
+      {
+        "id": 2,
+        "productId": "7",
+        "username": "Khách hàng 2",
+        "fullName": "Khách hàng 2",
+        "userName": "Khách hàng 2",
+        "rating": 5,
+        "content": "Màu sắc bên ngoài giống hình, dễ phối với nhiều trang phục.",
+        "comment": "Màu sắc bên ngoài giống hình, dễ phối với nhiều trang phục.",
+        "images": [],
+        "createdAt": "00:57:16 23/6/2026",
+        "createdAtISO": "2026-06-22T17:57:16.512Z",
+        "updatedAt": "",
+        "updatedAtISO": "",
+        "hidden": false
+      },
+      {
+        "id": 3,
+        "productId": "7",
+        "username": "Khách hàng 3",
+        "fullName": "Khách hàng 3",
+        "userName": "Khách hàng 3",
+        "rating": 5,
+        "content": "Đóng gói cẩn thận, giao hàng nhanh, chất lượng tốt.",
+        "comment": "Đóng gói cẩn thận, giao hàng nhanh, chất lượng tốt.",
+        "images": [],
+        "createdAt": "00:57:16 23/6/2026",
+        "createdAtISO": "2026-06-22T17:57:16.512Z",
+        "updatedAt": "",
+        "updatedAtISO": "",
+        "hidden": false
+      },
+      {
+        "id": 4,
+        "productId": "7",
+        "username": "Khách hàng 4",
+        "fullName": "Khách hàng 4",
+        "userName": "Khách hàng 4",
+        "rating": 5,
+        "content": "Giày nhẹ, đi học và đi chơi đều rất phù hợp.",
+        "comment": "Giày nhẹ, đi học và đi chơi đều rất phù hợp.",
+        "images": [],
+        "createdAt": "00:57:16 23/6/2026",
+        "createdAtISO": "2026-06-22T17:57:16.512Z",
+        "updatedAt": "",
+        "updatedAtISO": "",
+        "hidden": false
+      },
+      {
+        "id": 5,
+        "productId": "7",
+        "username": "Khách hàng 5",
+        "fullName": "Khách hàng 5",
+        "userName": "Khách hàng 5",
+        "rating": 5,
+        "content": "Chất liệu ổn, đường may chắc chắn, đáng tiền.",
+        "comment": "Chất liệu ổn, đường may chắc chắn, đáng tiền.",
+        "images": [],
+        "createdAt": "00:57:16 23/6/2026",
+        "createdAtISO": "2026-06-22T17:57:16.512Z",
+        "updatedAt": "",
+        "updatedAtISO": "",
+        "hidden": false
+      },
+      {
+        "id": 6,
+        "productId": "7",
+        "username": "Khách hàng 6",
+        "fullName": "Khách hàng 6",
+        "userName": "Khách hàng 6",
+        "rating": 5,
+        "content": "Mình mang thử thấy thoải mái, không bị đau chân.",
+        "comment": "Mình mang thử thấy thoải mái, không bị đau chân.",
+        "images": [],
+        "createdAt": "00:57:16 23/6/2026",
+        "createdAtISO": "2026-06-22T17:57:16.512Z",
+        "updatedAt": "",
+        "updatedAtISO": "",
+        "hidden": false
+      },
+      {
+        "id": 7,
+        "productId": "7",
+        "username": "Khách hàng 7",
+        "fullName": "Khách hàng 7",
+        "userName": "Khách hàng 7",
+        "rating": 5,
+        "content": "Kiểu dáng trẻ trung, nhìn ngoài đẹp hơn mong đợi.",
+        "comment": "Kiểu dáng trẻ trung, nhìn ngoài đẹp hơn mong đợi.",
+        "images": [],
+        "createdAt": "00:57:16 23/6/2026",
+        "createdAtISO": "2026-06-22T17:57:16.512Z",
+        "updatedAt": "",
+        "updatedAtISO": "",
+        "hidden": false
+      },
+      {
+        "id": 8,
+        "productId": "7",
+        "username": "Khách hàng 8",
+        "fullName": "Khách hàng 8",
+        "userName": "Khách hàng 8",
+        "rating": 5,
+        "content": "Sản phẩm đúng mô tả, size vừa chân, rất hài lòng.",
+        "comment": "Sản phẩm đúng mô tả, size vừa chân, rất hài lòng.",
+        "images": [],
+        "createdAt": "00:57:16 23/6/2026",
+        "createdAtISO": "2026-06-22T17:57:16.512Z",
+        "updatedAt": "",
+        "updatedAtISO": "",
+        "hidden": false
+      },
+      {
+        "id": 9,
+        "productId": "7",
+        "username": "Khách hàng 9",
+        "fullName": "Khách hàng 9",
+        "userName": "Khách hàng 9",
+        "rating": 5,
+        "content": "Đế giày êm, bám tốt, phù hợp sử dụng hằng ngày.",
+        "comment": "Đế giày êm, bám tốt, phù hợp sử dụng hằng ngày.",
+        "images": [],
+        "createdAt": "00:57:16 23/6/2026",
+        "createdAtISO": "2026-06-22T17:57:16.512Z",
+        "updatedAt": "",
+        "updatedAtISO": "",
+        "hidden": false
+      },
+      {
+        "id": 10,
+        "productId": "7",
+        "username": "Khách hàng 10",
+        "fullName": "Khách hàng 10",
+        "userName": "Khách hàng 10",
+        "rating": 5,
+        "content": "Sẽ tiếp tục ủng hộ shop vì sản phẩm rất chất lượng.",
+        "comment": "Sẽ tiếp tục ủng hộ shop vì sản phẩm rất chất lượng.",
+        "images": [],
+        "createdAt": "00:57:16 23/6/2026",
+        "createdAtISO": "2026-06-22T17:57:16.512Z",
+        "updatedAt": "",
+        "updatedAtISO": "",
+        "hidden": false
+      },
+      {
+        "id": 1782151036512,
+        "productId": "7",
+        "username": "Huy",
+        "fullName": "Huy",
+        "userName": "Huy",
+        "rating": 4,
+        "content": "chất lượng tốt",
+        "comment": "chất lượng tốt",
+        "images": [],
+        "createdAt": "00:57:16 23/6/2026",
+        "createdAtISO": "2026-06-22T17:57:16.511Z",
+        "updatedAt": "00:57:59 23/6/2026",
+        "updatedAtISO": "2026-06-22T17:57:59.304Z",
+        "hidden": false
+      }
+    ],
+    "rating": 4.9,
+    "views": 317,
+    "createdAt": "2026-06-07T08:00:00",
+    "updatedAt": "2026-06-22T17:57:59.304Z",
+    "salePrice": 2590000,
+    "oldPrice": 2590000,
+    "totalReviews": 11
+  },
+  {
+    "id": "8",
+    "name": "Adidas Duramo Speed 2",
+    "alias": "adidas-duramo-speed-2",
+    "brand": "Adidas",
+    "type": "low-top",
+    "typeName": "Giày cổ thấp",
+    "gender": [
+      "boy"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "price": 2290000,
+    "discount": 13,
+    "quantity": 30,
+    "importQuantity": 30,
+    "deleted": false,
+    "feature": false,
+    "hasGift": false,
+    "giftName": "",
+    "image": "/img-shoes/low-top/adidas/Adidas Duramo Speed 2-boy/xam-xanh/giay-adidas-duramo-speed-2-nam-xam-01.jpg",
+    "imgLink": "/img-shoes/low-top/adidas/Adidas Duramo Speed 2-boy/xam-xanh/giay-adidas-duramo-speed-2-nam-xam-01.jpg",
+    "shortDescription": "Thiết kế hiện đại, dễ phối đồ, phù hợp sử dụng hằng ngày.",
+    "description": "Sản phẩm được thiết kế trẻ trung, dễ phối đồ, phù hợp để đi học, đi làm, đi chơi và sử dụng hằng ngày. Form dáng hiện đại, chất liệu bền bỉ, mang lại cảm giác thoải mái khi di chuyển.",
+    "categories": [
+      {
+        "id": "ADIDAS",
+        "category": "ADIDAS"
+      }
+    ],
+    "relatedProducts": [
+      9,
+      10,
+      11
+    ],
+    "colors": [
+      {
+        "id": "xam-xanh",
+        "name": "Xám / Xanh",
+        "folderName": "xam-xanh",
+        "defaultImage": "/img-shoes/low-top/adidas/Adidas Duramo Speed 2-boy/xam-xanh/giay-adidas-duramo-speed-2-nam-xam-01.jpg",
+        "detailImages": [
+          "/img-shoes/low-top/adidas/Adidas Duramo Speed 2-boy/xam-xanh/giay-adidas-duramo-speed-2-nam-xam-01.jpg",
+          "/img-shoes/low-top/adidas/Adidas Duramo Speed 2-boy/xam-xanh/giay-adidas-duramo-speed-2-nam-xam-02.jpg",
+          "/img-shoes/low-top/adidas/Adidas Duramo Speed 2-boy/xam-xanh/giay-adidas-duramo-speed-2-nam-xam-03.jpg"
+        ],
+        "images": [
+          "/img-shoes/low-top/adidas/Adidas Duramo Speed 2-boy/xam-xanh/giay-adidas-duramo-speed-2-nam-xam-01.jpg",
+          "/img-shoes/low-top/adidas/Adidas Duramo Speed 2-boy/xam-xanh/giay-adidas-duramo-speed-2-nam-xam-02.jpg",
+          "/img-shoes/low-top/adidas/Adidas Duramo Speed 2-boy/xam-xanh/giay-adidas-duramo-speed-2-nam-xam-03.jpg"
+        ],
+        "thumbnail": "/img-shoes/low-top/adidas/Adidas Duramo Speed 2-boy/xam-xanh/giay-adidas-duramo-speed-2-nam-xam-01.jpg"
+      },
+      {
+        "id": "xanh",
+        "name": "Xanh",
+        "folderName": "xanh",
+        "defaultImage": "/img-shoes/low-top/adidas/Adidas Duramo Speed 2-boy/xanh/giay-adidas-duramo-speed-2-nam-xanh-navy-01.jpg",
+        "detailImages": [
+          "/img-shoes/low-top/adidas/Adidas Duramo Speed 2-boy/xanh/giay-adidas-duramo-speed-2-nam-xanh-navy-01.jpg",
+          "/img-shoes/low-top/adidas/Adidas Duramo Speed 2-boy/xanh/giay-adidas-duramo-speed-2-nam-xanh-navy-02.jpg",
+          "/img-shoes/low-top/adidas/Adidas Duramo Speed 2-boy/xanh/giay-adidas-duramo-speed-2-nam-xanh-navy-03.jpg"
+        ],
+        "images": [
+          "/img-shoes/low-top/adidas/Adidas Duramo Speed 2-boy/xanh/giay-adidas-duramo-speed-2-nam-xanh-navy-01.jpg",
+          "/img-shoes/low-top/adidas/Adidas Duramo Speed 2-boy/xanh/giay-adidas-duramo-speed-2-nam-xanh-navy-02.jpg",
+          "/img-shoes/low-top/adidas/Adidas Duramo Speed 2-boy/xanh/giay-adidas-duramo-speed-2-nam-xanh-navy-03.jpg"
+        ],
+        "thumbnail": "/img-shoes/low-top/adidas/Adidas Duramo Speed 2-boy/xanh/giay-adidas-duramo-speed-2-nam-xanh-navy-01.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "userName": "Khách hàng 1",
+        "rating": 5,
+        "comment": "Sản phẩm đẹp, form giày chuẩn và mang rất êm chân."
+      },
+      {
+        "id": 2,
+        "userName": "Khách hàng 2",
+        "rating": 5,
+        "comment": "Màu sắc bên ngoài giống hình, dễ phối với nhiều trang phục."
+      },
+      {
+        "id": 3,
+        "userName": "Khách hàng 3",
+        "rating": 5,
+        "comment": "Đóng gói cẩn thận, giao hàng nhanh, chất lượng tốt."
+      },
+      {
+        "id": 4,
+        "userName": "Khách hàng 4",
+        "rating": 5,
+        "comment": "Giày nhẹ, đi học và đi chơi đều rất phù hợp."
+      },
+      {
+        "id": 5,
+        "userName": "Khách hàng 5",
+        "rating": 5,
+        "comment": "Chất liệu ổn, đường may chắc chắn, đáng tiền."
+      },
+      {
+        "id": 6,
+        "userName": "Khách hàng 6",
+        "rating": 5,
+        "comment": "Mình mang thử thấy thoải mái, không bị đau chân."
+      },
+      {
+        "id": 7,
+        "userName": "Khách hàng 7",
+        "rating": 5,
+        "comment": "Kiểu dáng trẻ trung, nhìn ngoài đẹp hơn mong đợi."
+      },
+      {
+        "id": 8,
+        "userName": "Khách hàng 8",
+        "rating": 5,
+        "comment": "Sản phẩm đúng mô tả, size vừa chân, rất hài lòng."
+      },
+      {
+        "id": 9,
+        "userName": "Khách hàng 9",
+        "rating": 5,
+        "comment": "Đế giày êm, bám tốt, phù hợp sử dụng hằng ngày."
+      },
+      {
+        "id": 10,
+        "userName": "Khách hàng 10",
+        "rating": 5,
+        "comment": "Sẽ tiếp tục ủng hộ shop vì sản phẩm rất chất lượng."
+      }
+    ],
+    "rating": 5,
+    "views": 348,
+    "createdAt": "2026-06-08T09:00:00",
+    "updatedAt": "2026-06-08T09:00:00"
+  },
+  {
+    "id": "9",
+    "name": "Adidas Grand Court Base 2.0",
+    "alias": "adidas-grand-court-base-2-0",
+    "brand": "Adidas",
+    "type": "low-top",
+    "typeName": "Giày cổ thấp",
+    "gender": [
+      "boy",
+      "girl"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42
+    ],
+    "price": 2090000,
+    "discount": 0,
+    "quantity": 30,
+    "importQuantity": 30,
+    "deleted": false,
+    "feature": false,
+    "hasGift": false,
+    "giftName": "",
+    "image": "/img-shoes/low-top/adidas/Adidas Grand Court Base 2.0-unisex/trang-den/giay-adidas-grandcourt-base-2.0-m-nam-nu-trang-navy.01.jpg",
+    "imgLink": "/img-shoes/low-top/adidas/Adidas Grand Court Base 2.0-unisex/trang-den/giay-adidas-grandcourt-base-2.0-m-nam-nu-trang-navy.01.jpg",
+    "shortDescription": "Thiết kế hiện đại, dễ phối đồ, phù hợp sử dụng hằng ngày.",
+    "description": "Sản phẩm được thiết kế trẻ trung, dễ phối đồ, phù hợp để đi học, đi làm, đi chơi và sử dụng hằng ngày. Form dáng hiện đại, chất liệu bền bỉ, mang lại cảm giác thoải mái khi di chuyển.",
+    "categories": [
+      {
+        "id": "ADIDAS",
+        "category": "ADIDAS"
+      }
+    ],
+    "relatedProducts": [
+      10,
+      11,
+      12
+    ],
+    "colors": [
+      {
+        "id": "trang-den",
+        "name": "Trắng / Đen",
+        "folderName": "trang-den",
+        "defaultImage": "/img-shoes/low-top/adidas/Adidas Grand Court Base 2.0-unisex/trang-den/giay-adidas-grandcourt-base-2.0-m-nam-nu-trang-navy.01.jpg",
+        "detailImages": [
+          "/img-shoes/low-top/adidas/Adidas Grand Court Base 2.0-unisex/trang-den/giay-adidas-grandcourt-base-2.0-m-nam-nu-trang-navy.01.jpg",
+          "/img-shoes/low-top/adidas/Adidas Grand Court Base 2.0-unisex/trang-den/giay-adidas-grandcourt-base-2.0-m-nam-nu-trang-navy.02.jpg",
+          "/img-shoes/low-top/adidas/Adidas Grand Court Base 2.0-unisex/trang-den/giay-adidas-grandcourt-base-2.0-m-nam-nu-trang-navy.03.jpg"
+        ],
+        "images": [
+          "/img-shoes/low-top/adidas/Adidas Grand Court Base 2.0-unisex/trang-den/giay-adidas-grandcourt-base-2.0-m-nam-nu-trang-navy.01.jpg",
+          "/img-shoes/low-top/adidas/Adidas Grand Court Base 2.0-unisex/trang-den/giay-adidas-grandcourt-base-2.0-m-nam-nu-trang-navy.02.jpg",
+          "/img-shoes/low-top/adidas/Adidas Grand Court Base 2.0-unisex/trang-den/giay-adidas-grandcourt-base-2.0-m-nam-nu-trang-navy.03.jpg"
+        ],
+        "thumbnail": "/img-shoes/low-top/adidas/Adidas Grand Court Base 2.0-unisex/trang-den/giay-adidas-grandcourt-base-2.0-m-nam-nu-trang-navy.01.jpg"
+      },
+      {
+        "id": "trang-do-xanh",
+        "name": "Trắng / Đỏ / Xanh",
+        "folderName": "trang-do-xanh",
+        "defaultImage": "/img-shoes/low-top/adidas/Adidas Grand Court Base 2.0-unisex/trang-do-xanh/giay-adidas-grand-court-base-2-nam-trang-do-xanh-01.jpg",
+        "detailImages": [
+          "/img-shoes/low-top/adidas/Adidas Grand Court Base 2.0-unisex/trang-do-xanh/giay-adidas-grand-court-base-2-nam-trang-do-xanh-01.jpg",
+          "/img-shoes/low-top/adidas/Adidas Grand Court Base 2.0-unisex/trang-do-xanh/giay-adidas-grand-court-base-2-nam-trang-do-xanh-02.jpg",
+          "/img-shoes/low-top/adidas/Adidas Grand Court Base 2.0-unisex/trang-do-xanh/giay-adidas-grand-court-base-2-nam-trang-do-xanh-03.jpg"
+        ],
+        "images": [
+          "/img-shoes/low-top/adidas/Adidas Grand Court Base 2.0-unisex/trang-do-xanh/giay-adidas-grand-court-base-2-nam-trang-do-xanh-01.jpg",
+          "/img-shoes/low-top/adidas/Adidas Grand Court Base 2.0-unisex/trang-do-xanh/giay-adidas-grand-court-base-2-nam-trang-do-xanh-02.jpg",
+          "/img-shoes/low-top/adidas/Adidas Grand Court Base 2.0-unisex/trang-do-xanh/giay-adidas-grand-court-base-2-nam-trang-do-xanh-03.jpg"
+        ],
+        "thumbnail": "/img-shoes/low-top/adidas/Adidas Grand Court Base 2.0-unisex/trang-do-xanh/giay-adidas-grand-court-base-2-nam-trang-do-xanh-01.jpg"
+      },
+      {
+        "id": "trang-xanh-la",
+        "name": "Trắng / Xanh lá",
+        "folderName": "trang-xanh la",
+        "defaultImage": "/img-shoes/low-top/adidas/Adidas Grand Court Base 2.0-unisex/trang-xanh la/giay-adidas-grand-court-base-2-nam-trang-xanh-la-01.jpg",
+        "detailImages": [
+          "/img-shoes/low-top/adidas/Adidas Grand Court Base 2.0-unisex/trang-xanh la/giay-adidas-grand-court-base-2-nam-trang-xanh-la-01.jpg",
+          "/img-shoes/low-top/adidas/Adidas Grand Court Base 2.0-unisex/trang-xanh la/giay-adidas-grand-court-base-2-nam-trang-xanh-la-02.jpg",
+          "/img-shoes/low-top/adidas/Adidas Grand Court Base 2.0-unisex/trang-xanh la/giay-adidas-grand-court-base-2-nam-trang-xanh-la-03.jpg"
+        ],
+        "images": [
+          "/img-shoes/low-top/adidas/Adidas Grand Court Base 2.0-unisex/trang-xanh la/giay-adidas-grand-court-base-2-nam-trang-xanh-la-01.jpg",
+          "/img-shoes/low-top/adidas/Adidas Grand Court Base 2.0-unisex/trang-xanh la/giay-adidas-grand-court-base-2-nam-trang-xanh-la-02.jpg",
+          "/img-shoes/low-top/adidas/Adidas Grand Court Base 2.0-unisex/trang-xanh la/giay-adidas-grand-court-base-2-nam-trang-xanh-la-03.jpg"
+        ],
+        "thumbnail": "/img-shoes/low-top/adidas/Adidas Grand Court Base 2.0-unisex/trang-xanh la/giay-adidas-grand-court-base-2-nam-trang-xanh-la-01.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "userName": "Khách hàng 1",
+        "rating": 5,
+        "comment": "Sản phẩm đẹp, form giày chuẩn và mang rất êm chân."
+      },
+      {
+        "id": 2,
+        "userName": "Khách hàng 2",
+        "rating": 5,
+        "comment": "Màu sắc bên ngoài giống hình, dễ phối với nhiều trang phục."
+      },
+      {
+        "id": 3,
+        "userName": "Khách hàng 3",
+        "rating": 5,
+        "comment": "Đóng gói cẩn thận, giao hàng nhanh, chất lượng tốt."
+      },
+      {
+        "id": 4,
+        "userName": "Khách hàng 4",
+        "rating": 5,
+        "comment": "Giày nhẹ, đi học và đi chơi đều rất phù hợp."
+      },
+      {
+        "id": 5,
+        "userName": "Khách hàng 5",
+        "rating": 5,
+        "comment": "Chất liệu ổn, đường may chắc chắn, đáng tiền."
+      },
+      {
+        "id": 6,
+        "userName": "Khách hàng 6",
+        "rating": 5,
+        "comment": "Mình mang thử thấy thoải mái, không bị đau chân."
+      },
+      {
+        "id": 7,
+        "userName": "Khách hàng 7",
+        "rating": 5,
+        "comment": "Kiểu dáng trẻ trung, nhìn ngoài đẹp hơn mong đợi."
+      },
+      {
+        "id": 8,
+        "userName": "Khách hàng 8",
+        "rating": 5,
+        "comment": "Sản phẩm đúng mô tả, size vừa chân, rất hài lòng."
+      },
+      {
+        "id": 9,
+        "userName": "Khách hàng 9",
+        "rating": 5,
+        "comment": "Đế giày êm, bám tốt, phù hợp sử dụng hằng ngày."
+      },
+      {
+        "id": 10,
+        "userName": "Khách hàng 10",
+        "rating": 5,
+        "comment": "Sẽ tiếp tục ủng hộ shop vì sản phẩm rất chất lượng."
+      }
+    ],
+    "rating": 5,
+    "views": 379,
+    "createdAt": "2026-06-09T10:00:00",
+    "updatedAt": "2026-06-09T10:00:00"
+  },
+  {
+    "id": "10",
+    "name": "Adidas Pureboost 5",
+    "alias": "adidas-pureboost-5",
+    "brand": "Adidas",
+    "type": "low-top",
+    "typeName": "Giày cổ thấp",
+    "gender": [
+      "boy"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "price": 2490000,
+    "discount": 12,
+    "quantity": 30,
+    "importQuantity": 30,
+    "deleted": false,
+    "feature": true,
+    "hasGift": true,
+    "giftName": "Tặng tất KienShoes",
+    "image": "/img-shoes/low-top/adidas/Adidas Pureboost 5-boy/trang-xanh-do/giay-adidas-pureboost-5-nam-trang-xanh-do-01.jpg",
+    "imgLink": "/img-shoes/low-top/adidas/Adidas Pureboost 5-boy/trang-xanh-do/giay-adidas-pureboost-5-nam-trang-xanh-do-01.jpg",
+    "shortDescription": "Thiết kế hiện đại, dễ phối đồ, phù hợp sử dụng hằng ngày.",
+    "description": "Sản phẩm được thiết kế trẻ trung, dễ phối đồ, phù hợp để đi học, đi làm, đi chơi và sử dụng hằng ngày. Form dáng hiện đại, chất liệu bền bỉ, mang lại cảm giác thoải mái khi di chuyển.",
+    "categories": [
+      {
+        "id": "ADIDAS",
+        "category": "ADIDAS"
+      }
+    ],
+    "relatedProducts": [
+      11,
+      12,
+      13
+    ],
+    "colors": [
+      {
+        "id": "trang-xanh-do",
+        "name": "Trắng / Xanh / Đỏ",
+        "folderName": "trang-xanh-do",
+        "defaultImage": "/img-shoes/low-top/adidas/Adidas Pureboost 5-boy/trang-xanh-do/giay-adidas-pureboost-5-nam-trang-xanh-do-01.jpg",
+        "detailImages": [
+          "/img-shoes/low-top/adidas/Adidas Pureboost 5-boy/trang-xanh-do/giay-adidas-pureboost-5-nam-trang-xanh-do-01.jpg",
+          "/img-shoes/low-top/adidas/Adidas Pureboost 5-boy/trang-xanh-do/giay-adidas-pureboost-5-nam-trang-xanh-do-02.jpg",
+          "/img-shoes/low-top/adidas/Adidas Pureboost 5-boy/trang-xanh-do/giay-adidas-pureboost-5-nam-trang-xanh-do-03.jpg"
+        ],
+        "images": [
+          "/img-shoes/low-top/adidas/Adidas Pureboost 5-boy/trang-xanh-do/giay-adidas-pureboost-5-nam-trang-xanh-do-01.jpg",
+          "/img-shoes/low-top/adidas/Adidas Pureboost 5-boy/trang-xanh-do/giay-adidas-pureboost-5-nam-trang-xanh-do-02.jpg",
+          "/img-shoes/low-top/adidas/Adidas Pureboost 5-boy/trang-xanh-do/giay-adidas-pureboost-5-nam-trang-xanh-do-03.jpg"
+        ],
+        "thumbnail": "/img-shoes/low-top/adidas/Adidas Pureboost 5-boy/trang-xanh-do/giay-adidas-pureboost-5-nam-trang-xanh-do-01.jpg"
+      },
+      {
+        "id": "xam-xanh",
+        "name": "Xám / Xanh",
+        "folderName": "xam-xanh",
+        "defaultImage": "/img-shoes/low-top/adidas/Adidas Pureboost 5-boy/xam-xanh/giay-adidas-pureboost-5-nam-xam-xanh-01.jpg",
+        "detailImages": [
+          "/img-shoes/low-top/adidas/Adidas Pureboost 5-boy/xam-xanh/giay-adidas-pureboost-5-nam-xam-xanh-01.jpg",
+          "/img-shoes/low-top/adidas/Adidas Pureboost 5-boy/xam-xanh/giay-adidas-pureboost-5-nam-xam-xanh-02.jpg",
+          "/img-shoes/low-top/adidas/Adidas Pureboost 5-boy/xam-xanh/giay-adidas-pureboost-5-nam-xam-xanh-03.jpg"
+        ],
+        "images": [
+          "/img-shoes/low-top/adidas/Adidas Pureboost 5-boy/xam-xanh/giay-adidas-pureboost-5-nam-xam-xanh-01.jpg",
+          "/img-shoes/low-top/adidas/Adidas Pureboost 5-boy/xam-xanh/giay-adidas-pureboost-5-nam-xam-xanh-02.jpg",
+          "/img-shoes/low-top/adidas/Adidas Pureboost 5-boy/xam-xanh/giay-adidas-pureboost-5-nam-xam-xanh-03.jpg"
+        ],
+        "thumbnail": "/img-shoes/low-top/adidas/Adidas Pureboost 5-boy/xam-xanh/giay-adidas-pureboost-5-nam-xam-xanh-01.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "userName": "Khách hàng 1",
+        "rating": 5,
+        "comment": "Sản phẩm đẹp, form giày chuẩn và mang rất êm chân."
+      },
+      {
+        "id": 2,
+        "userName": "Khách hàng 2",
+        "rating": 5,
+        "comment": "Màu sắc bên ngoài giống hình, dễ phối với nhiều trang phục."
+      },
+      {
+        "id": 3,
+        "userName": "Khách hàng 3",
+        "rating": 5,
+        "comment": "Đóng gói cẩn thận, giao hàng nhanh, chất lượng tốt."
+      },
+      {
+        "id": 4,
+        "userName": "Khách hàng 4",
+        "rating": 5,
+        "comment": "Giày nhẹ, đi học và đi chơi đều rất phù hợp."
+      },
+      {
+        "id": 5,
+        "userName": "Khách hàng 5",
+        "rating": 5,
+        "comment": "Chất liệu ổn, đường may chắc chắn, đáng tiền."
+      },
+      {
+        "id": 6,
+        "userName": "Khách hàng 6",
+        "rating": 5,
+        "comment": "Mình mang thử thấy thoải mái, không bị đau chân."
+      },
+      {
+        "id": 7,
+        "userName": "Khách hàng 7",
+        "rating": 5,
+        "comment": "Kiểu dáng trẻ trung, nhìn ngoài đẹp hơn mong đợi."
+      },
+      {
+        "id": 8,
+        "userName": "Khách hàng 8",
+        "rating": 5,
+        "comment": "Sản phẩm đúng mô tả, size vừa chân, rất hài lòng."
+      },
+      {
+        "id": 9,
+        "userName": "Khách hàng 9",
+        "rating": 5,
+        "comment": "Đế giày êm, bám tốt, phù hợp sử dụng hằng ngày."
+      },
+      {
+        "id": 10,
+        "userName": "Khách hàng 10",
+        "rating": 5,
+        "comment": "Sẽ tiếp tục ủng hộ shop vì sản phẩm rất chất lượng."
+      }
+    ],
+    "rating": 5,
+    "views": 410,
+    "createdAt": "2026-06-10T11:00:00",
+    "updatedAt": "2026-06-10T11:00:00"
+  },
+  {
+    "id": "11",
+    "name": "Adidas Response 2",
+    "alias": "adidas-response-2",
+    "brand": "Adidas",
+    "type": "low-top",
+    "typeName": "Giày cổ thấp",
+    "gender": [
+      "boy"
+    ],
+    "sizes": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "price": 2290000,
+    "discount": 0,
+    "quantity": 30,
+    "importQuantity": 30,
+    "deleted": false,
+    "feature": false,
+    "hasGift": false,
+    "giftName": "",
+    "image": "/img-shoes/low-top/adidas/Adidas Response 2-boy/den/giay-adidas-response-2-nam-den-trang-01.jpg",
+    "imgLink": "/img-shoes/low-top/adidas/Adidas Response 2-boy/den/giay-adidas-response-2-nam-den-trang-01.jpg",
+    "shortDescription": "Thiết kế hiện đại, dễ phối đồ, phù hợp sử dụng hằng ngày.",
+    "description": "Sản phẩm được thiết kế trẻ trung, dễ phối đồ, phù hợp để đi học, đi làm, đi chơi và sử dụng hằng ngày. Form dáng hiện đại, chất liệu bền bỉ, mang lại cảm giác thoải mái khi di chuyển.",
+    "categories": [
+      {
+        "id": "ADIDAS",
+        "category": "ADIDAS"
+      }
+    ],
+    "relatedProducts": [
+      12,
+      13,
+      14
+    ],
+    "colors": [
+      {
+        "id": "den",
+        "name": "Đen",
+        "folderName": "den",
+        "defaultImage": "/img-shoes/low-top/adidas/Adidas Response 2-boy/den/giay-adidas-response-2-nam-den-trang-01.jpg",
+        "detailImages": [
+          "/img-shoes/low-top/adidas/Adidas Response 2-boy/den/giay-adidas-response-2-nam-den-trang-01.jpg",
+          "/img-shoes/low-top/adidas/Adidas Response 2-boy/den/giay-adidas-response-2-nam-den-trang-02.jpg",
+          "/img-shoes/low-top/adidas/Adidas Response 2-boy/den/giay-adidas-response-2-nam-den-trang-03.jpg"
+        ],
+        "images": [
+          "/img-shoes/low-top/adidas/Adidas Response 2-boy/den/giay-adidas-response-2-nam-den-trang-01.jpg",
+          "/img-shoes/low-top/adidas/Adidas Response 2-boy/den/giay-adidas-response-2-nam-den-trang-02.jpg",
+          "/img-shoes/low-top/adidas/Adidas Response 2-boy/den/giay-adidas-response-2-nam-den-trang-03.jpg"
+        ],
+        "thumbnail": "/img-shoes/low-top/adidas/Adidas Response 2-boy/den/giay-adidas-response-2-nam-den-trang-01.jpg"
+      },
+      {
+        "id": "xam",
+        "name": "Xám",
+        "folderName": "xam",
+        "defaultImage": "/img-shoes/low-top/adidas/Adidas Response 2-boy/xam/giay-adidas-response-2-nam-xam-01.jpg",
+        "detailImages": [
+          "/img-shoes/low-top/adidas/Adidas Response 2-boy/xam/giay-adidas-response-2-nam-xam-01.jpg",
+          "/img-shoes/low-top/adidas/Adidas Response 2-boy/xam/giay-adidas-response-2-nam-xam-02.jpg",
+          "/img-shoes/low-top/adidas/Adidas Response 2-boy/xam/giay-adidas-response-2-nam-xam-03.jpg"
+        ],
+        "images": [
+          "/img-shoes/low-top/adidas/Adidas Response 2-boy/xam/giay-adidas-response-2-nam-xam-01.jpg",
+          "/img-shoes/low-top/adidas/Adidas Response 2-boy/xam/giay-adidas-response-2-nam-xam-02.jpg",
+          "/img-shoes/low-top/adidas/Adidas Response 2-boy/xam/giay-adidas-response-2-nam-xam-03.jpg"
+        ],
+        "thumbnail": "/img-shoes/low-top/adidas/Adidas Response 2-boy/xam/giay-adidas-response-2-nam-xam-01.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "userName": "Khách hàng 1",
+        "rating": 5,
+        "comment": "Sản phẩm đẹp, form giày chuẩn và mang rất êm chân."
+      },
+      {
+        "id": 2,
+        "userName": "Khách hàng 2",
+        "rating": 5,
+        "comment": "Màu sắc bên ngoài giống hình, dễ phối với nhiều trang phục."
+      },
+      {
+        "id": 3,
+        "userName": "Khách hàng 3",
+        "rating": 5,
+        "comment": "Đóng gói cẩn thận, giao hàng nhanh, chất lượng tốt."
+      },
+      {
+        "id": 4,
+        "userName": "Khách hàng 4",
+        "rating": 5,
+        "comment": "Giày nhẹ, đi học và đi chơi đều rất phù hợp."
+      },
+      {
+        "id": 5,
+        "userName": "Khách hàng 5",
+        "rating": 5,
+        "comment": "Chất liệu ổn, đường may chắc chắn, đáng tiền."
+      },
+      {
+        "id": 6,
+        "userName": "Khách hàng 6",
+        "rating": 5,
+        "comment": "Mình mang thử thấy thoải mái, không bị đau chân."
+      },
+      {
+        "id": 7,
+        "userName": "Khách hàng 7",
+        "rating": 5,
+        "comment": "Kiểu dáng trẻ trung, nhìn ngoài đẹp hơn mong đợi."
+      },
+      {
+        "id": 8,
+        "userName": "Khách hàng 8",
+        "rating": 5,
+        "comment": "Sản phẩm đúng mô tả, size vừa chân, rất hài lòng."
+      },
+      {
+        "id": 9,
+        "userName": "Khách hàng 9",
+        "rating": 5,
+        "comment": "Đế giày êm, bám tốt, phù hợp sử dụng hằng ngày."
+      },
+      {
+        "id": 10,
+        "userName": "Khách hàng 10",
+        "rating": 5,
+        "comment": "Sẽ tiếp tục ủng hộ shop vì sản phẩm rất chất lượng."
+      }
+    ],
+    "rating": 5,
+    "views": 441,
+    "createdAt": "2026-06-11T12:00:00",
+    "updatedAt": "2026-06-11T12:00:00"
+  },
+  {
+    "id": "12",
+    "name": "Adidas Runfalcon 5",
+    "alias": "adidas-runfalcon-5",
+    "brand": "Adidas",
+    "type": "low-top",
+    "typeName": "Giày cổ thấp",
+    "gender": [
+      "girl"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "price": 2790000,
+    "discount": 14,
+    "quantity": 30,
+    "importQuantity": 30,
+    "deleted": false,
+    "feature": false,
+    "hasGift": false,
+    "giftName": "",
+    "image": "/img-shoes/low-top/adidas/Adidas Runfalcon 5-girl/den/giay-adidas-runfalcon-5-nu-den-trang-01.jpg",
+    "imgLink": "/img-shoes/low-top/adidas/Adidas Runfalcon 5-girl/den/giay-adidas-runfalcon-5-nu-den-trang-01.jpg",
+    "shortDescription": "Thiết kế hiện đại, dễ phối đồ, phù hợp sử dụng hằng ngày.",
+    "description": "Sản phẩm được thiết kế trẻ trung, dễ phối đồ, phù hợp để đi học, đi làm, đi chơi và sử dụng hằng ngày. Form dáng hiện đại, chất liệu bền bỉ, mang lại cảm giác thoải mái khi di chuyển.",
+    "categories": [
+      {
+        "id": "ADIDAS",
+        "category": "ADIDAS"
+      }
+    ],
+    "relatedProducts": [
+      13,
+      14,
+      15
+    ],
+    "colors": [
+      {
+        "id": "den",
+        "name": "Đen",
+        "folderName": "den",
+        "defaultImage": "/img-shoes/low-top/adidas/Adidas Runfalcon 5-girl/den/giay-adidas-runfalcon-5-nu-den-trang-01.jpg",
+        "detailImages": [
+          "/img-shoes/low-top/adidas/Adidas Runfalcon 5-girl/den/giay-adidas-runfalcon-5-nu-den-trang-01.jpg",
+          "/img-shoes/low-top/adidas/Adidas Runfalcon 5-girl/den/giay-adidas-runfalcon-5-nu-den-trang-02.jpg",
+          "/img-shoes/low-top/adidas/Adidas Runfalcon 5-girl/den/giay-adidas-runfalcon-5-nu-den-trang-03.jpg"
+        ],
+        "images": [
+          "/img-shoes/low-top/adidas/Adidas Runfalcon 5-girl/den/giay-adidas-runfalcon-5-nu-den-trang-01.jpg",
+          "/img-shoes/low-top/adidas/Adidas Runfalcon 5-girl/den/giay-adidas-runfalcon-5-nu-den-trang-02.jpg",
+          "/img-shoes/low-top/adidas/Adidas Runfalcon 5-girl/den/giay-adidas-runfalcon-5-nu-den-trang-03.jpg"
+        ],
+        "thumbnail": "/img-shoes/low-top/adidas/Adidas Runfalcon 5-girl/den/giay-adidas-runfalcon-5-nu-den-trang-01.jpg"
+      },
+      {
+        "id": "trang-tim",
+        "name": "Trắng / Tím",
+        "folderName": "trang-tim",
+        "defaultImage": "/img-shoes/low-top/adidas/Adidas Runfalcon 5-girl/trang-tim/giay-adidas-runfalcon-5-nu-trang-tim-01.jpg",
+        "detailImages": [
+          "/img-shoes/low-top/adidas/Adidas Runfalcon 5-girl/trang-tim/giay-adidas-runfalcon-5-nu-trang-tim-01.jpg",
+          "/img-shoes/low-top/adidas/Adidas Runfalcon 5-girl/trang-tim/giay-adidas-runfalcon-5-nu-trang-tim-02.jpg",
+          "/img-shoes/low-top/adidas/Adidas Runfalcon 5-girl/trang-tim/giay-adidas-runfalcon-5-nu-trang-tim-03.jpg"
+        ],
+        "images": [
+          "/img-shoes/low-top/adidas/Adidas Runfalcon 5-girl/trang-tim/giay-adidas-runfalcon-5-nu-trang-tim-01.jpg",
+          "/img-shoes/low-top/adidas/Adidas Runfalcon 5-girl/trang-tim/giay-adidas-runfalcon-5-nu-trang-tim-02.jpg",
+          "/img-shoes/low-top/adidas/Adidas Runfalcon 5-girl/trang-tim/giay-adidas-runfalcon-5-nu-trang-tim-03.jpg"
+        ],
+        "thumbnail": "/img-shoes/low-top/adidas/Adidas Runfalcon 5-girl/trang-tim/giay-adidas-runfalcon-5-nu-trang-tim-01.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "userName": "Khách hàng 1",
+        "rating": 5,
+        "comment": "Sản phẩm đẹp, form giày chuẩn và mang rất êm chân."
+      },
+      {
+        "id": 2,
+        "userName": "Khách hàng 2",
+        "rating": 5,
+        "comment": "Màu sắc bên ngoài giống hình, dễ phối với nhiều trang phục."
+      },
+      {
+        "id": 3,
+        "userName": "Khách hàng 3",
+        "rating": 5,
+        "comment": "Đóng gói cẩn thận, giao hàng nhanh, chất lượng tốt."
+      },
+      {
+        "id": 4,
+        "userName": "Khách hàng 4",
+        "rating": 5,
+        "comment": "Giày nhẹ, đi học và đi chơi đều rất phù hợp."
+      },
+      {
+        "id": 5,
+        "userName": "Khách hàng 5",
+        "rating": 5,
+        "comment": "Chất liệu ổn, đường may chắc chắn, đáng tiền."
+      },
+      {
+        "id": 6,
+        "userName": "Khách hàng 6",
+        "rating": 5,
+        "comment": "Mình mang thử thấy thoải mái, không bị đau chân."
+      },
+      {
+        "id": 7,
+        "userName": "Khách hàng 7",
+        "rating": 5,
+        "comment": "Kiểu dáng trẻ trung, nhìn ngoài đẹp hơn mong đợi."
+      },
+      {
+        "id": 8,
+        "userName": "Khách hàng 8",
+        "rating": 5,
+        "comment": "Sản phẩm đúng mô tả, size vừa chân, rất hài lòng."
+      },
+      {
+        "id": 9,
+        "userName": "Khách hàng 9",
+        "rating": 5,
+        "comment": "Đế giày êm, bám tốt, phù hợp sử dụng hằng ngày."
+      },
+      {
+        "id": 10,
+        "userName": "Khách hàng 10",
+        "rating": 5,
+        "comment": "Sẽ tiếp tục ủng hộ shop vì sản phẩm rất chất lượng."
+      }
+    ],
+    "rating": 5,
+    "views": 472,
+    "createdAt": "2026-06-12T13:00:00",
+    "updatedAt": "2026-06-12T13:00:00"
+  },
+  {
+    "id": "13",
+    "name": "Adidas Supernova Comfortglide",
+    "alias": "adidas-supernova-comfortglide",
+    "brand": "Adidas",
+    "type": "low-top",
+    "typeName": "Giày cổ thấp",
+    "gender": [
+      "girl"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "price": 2490000,
+    "discount": 0,
+    "quantity": 30,
+    "importQuantity": 30,
+    "deleted": false,
+    "feature": false,
+    "hasGift": false,
+    "giftName": "",
+    "image": "/img-shoes/low-top/adidas/Adidas Supernova Comfortglide-girl/xam-trang/giay-adidas-supernova-comfortglide-nu-xam-trang-01.jpg",
+    "imgLink": "/img-shoes/low-top/adidas/Adidas Supernova Comfortglide-girl/xam-trang/giay-adidas-supernova-comfortglide-nu-xam-trang-01.jpg",
+    "shortDescription": "Thiết kế hiện đại, dễ phối đồ, phù hợp sử dụng hằng ngày.",
+    "description": "Sản phẩm được thiết kế trẻ trung, dễ phối đồ, phù hợp để đi học, đi làm, đi chơi và sử dụng hằng ngày. Form dáng hiện đại, chất liệu bền bỉ, mang lại cảm giác thoải mái khi di chuyển.",
+    "categories": [
+      {
+        "id": "ADIDAS",
+        "category": "ADIDAS"
+      }
+    ],
+    "relatedProducts": [
+      14,
+      15,
+      16
+    ],
+    "colors": [
+      {
+        "id": "xam-trang",
+        "name": "Xám / Trắng",
+        "folderName": "xam-trang",
+        "defaultImage": "/img-shoes/low-top/adidas/Adidas Supernova Comfortglide-girl/xam-trang/giay-adidas-supernova-comfortglide-nu-xam-trang-01.jpg",
+        "detailImages": [
+          "/img-shoes/low-top/adidas/Adidas Supernova Comfortglide-girl/xam-trang/giay-adidas-supernova-comfortglide-nu-xam-trang-01.jpg",
+          "/img-shoes/low-top/adidas/Adidas Supernova Comfortglide-girl/xam-trang/giay-adidas-supernova-comfortglide-nu-xam-trang-02.jpg",
+          "/img-shoes/low-top/adidas/Adidas Supernova Comfortglide-girl/xam-trang/giay-adidas-supernova-comfortglide-nu-xam-trang-03.jpg"
+        ],
+        "images": [
+          "/img-shoes/low-top/adidas/Adidas Supernova Comfortglide-girl/xam-trang/giay-adidas-supernova-comfortglide-nu-xam-trang-01.jpg",
+          "/img-shoes/low-top/adidas/Adidas Supernova Comfortglide-girl/xam-trang/giay-adidas-supernova-comfortglide-nu-xam-trang-02.jpg",
+          "/img-shoes/low-top/adidas/Adidas Supernova Comfortglide-girl/xam-trang/giay-adidas-supernova-comfortglide-nu-xam-trang-03.jpg"
+        ],
+        "thumbnail": "/img-shoes/low-top/adidas/Adidas Supernova Comfortglide-girl/xam-trang/giay-adidas-supernova-comfortglide-nu-xam-trang-01.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "userName": "Khách hàng 1",
+        "rating": 5,
+        "comment": "Sản phẩm đẹp, form giày chuẩn và mang rất êm chân."
+      },
+      {
+        "id": 2,
+        "userName": "Khách hàng 2",
+        "rating": 5,
+        "comment": "Màu sắc bên ngoài giống hình, dễ phối với nhiều trang phục."
+      },
+      {
+        "id": 3,
+        "userName": "Khách hàng 3",
+        "rating": 5,
+        "comment": "Đóng gói cẩn thận, giao hàng nhanh, chất lượng tốt."
+      },
+      {
+        "id": 4,
+        "userName": "Khách hàng 4",
+        "rating": 5,
+        "comment": "Giày nhẹ, đi học và đi chơi đều rất phù hợp."
+      },
+      {
+        "id": 5,
+        "userName": "Khách hàng 5",
+        "rating": 5,
+        "comment": "Chất liệu ổn, đường may chắc chắn, đáng tiền."
+      },
+      {
+        "id": 6,
+        "userName": "Khách hàng 6",
+        "rating": 5,
+        "comment": "Mình mang thử thấy thoải mái, không bị đau chân."
+      },
+      {
+        "id": 7,
+        "userName": "Khách hàng 7",
+        "rating": 5,
+        "comment": "Kiểu dáng trẻ trung, nhìn ngoài đẹp hơn mong đợi."
+      },
+      {
+        "id": 8,
+        "userName": "Khách hàng 8",
+        "rating": 5,
+        "comment": "Sản phẩm đúng mô tả, size vừa chân, rất hài lòng."
+      },
+      {
+        "id": 9,
+        "userName": "Khách hàng 9",
+        "rating": 5,
+        "comment": "Đế giày êm, bám tốt, phù hợp sử dụng hằng ngày."
+      },
+      {
+        "id": 10,
+        "userName": "Khách hàng 10",
+        "rating": 5,
+        "comment": "Sẽ tiếp tục ủng hộ shop vì sản phẩm rất chất lượng."
+      }
+    ],
+    "rating": 5,
+    "views": 503,
+    "createdAt": "2026-06-13T14:00:00",
+    "updatedAt": "2026-06-13T14:00:00"
+  },
+  {
+    "id": "14",
+    "name": "Adidas Ultraboost 5",
+    "alias": "adidas-ultraboost-5",
+    "brand": "Adidas",
+    "type": "low-top",
+    "typeName": "Giày cổ thấp",
+    "gender": [
+      "boy",
+      "girl"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42
+    ],
+    "price": 2590000,
+    "discount": 0,
+    "quantity": 30,
+    "importQuantity": 30,
+    "deleted": false,
+    "feature": false,
+    "hasGift": true,
+    "giftName": "Tặng tất KienShoes",
+    "image": "/img-shoes/low-top/adidas/Adidas Ultraboost 5-unisex/trang-xam-do/giay-adidas-ultraboost-5-nam-trang-xam-do-01.jpg",
+    "imgLink": "/img-shoes/low-top/adidas/Adidas Ultraboost 5-unisex/trang-xam-do/giay-adidas-ultraboost-5-nam-trang-xam-do-01.jpg",
+    "shortDescription": "Thiết kế hiện đại, dễ phối đồ, phù hợp sử dụng hằng ngày.",
+    "description": "Sản phẩm được thiết kế trẻ trung, dễ phối đồ, phù hợp để đi học, đi làm, đi chơi và sử dụng hằng ngày. Form dáng hiện đại, chất liệu bền bỉ, mang lại cảm giác thoải mái khi di chuyển.",
+    "categories": [
+      {
+        "id": "ADIDAS",
+        "category": "ADIDAS"
+      }
+    ],
+    "relatedProducts": [
+      15,
+      16,
+      17
+    ],
+    "colors": [
+      {
+        "id": "trang-xam-do",
+        "name": "Trắng / Xám / Đỏ",
+        "folderName": "trang-xam-do",
+        "defaultImage": "/img-shoes/low-top/adidas/Adidas Ultraboost 5-unisex/trang-xam-do/giay-adidas-ultraboost-5-nam-trang-xam-do-01.jpg",
+        "detailImages": [
+          "/img-shoes/low-top/adidas/Adidas Ultraboost 5-unisex/trang-xam-do/giay-adidas-ultraboost-5-nam-trang-xam-do-01.jpg",
+          "/img-shoes/low-top/adidas/Adidas Ultraboost 5-unisex/trang-xam-do/giay-adidas-ultraboost-5-nam-trang-xam-do-02.jpg",
+          "/img-shoes/low-top/adidas/Adidas Ultraboost 5-unisex/trang-xam-do/giay-adidas-ultraboost-5-nam-trang-xam-do-03.jpg"
+        ],
+        "images": [
+          "/img-shoes/low-top/adidas/Adidas Ultraboost 5-unisex/trang-xam-do/giay-adidas-ultraboost-5-nam-trang-xam-do-01.jpg",
+          "/img-shoes/low-top/adidas/Adidas Ultraboost 5-unisex/trang-xam-do/giay-adidas-ultraboost-5-nam-trang-xam-do-02.jpg",
+          "/img-shoes/low-top/adidas/Adidas Ultraboost 5-unisex/trang-xam-do/giay-adidas-ultraboost-5-nam-trang-xam-do-03.jpg"
+        ],
+        "thumbnail": "/img-shoes/low-top/adidas/Adidas Ultraboost 5-unisex/trang-xam-do/giay-adidas-ultraboost-5-nam-trang-xam-do-01.jpg"
+      },
+      {
+        "id": "xam",
+        "name": "Xám",
+        "folderName": "xam",
+        "defaultImage": "/img-shoes/low-top/adidas/Adidas Ultraboost 5-unisex/xam/giay-adidas-ultraboost-5-nam-xam-01.jpg",
+        "detailImages": [
+          "/img-shoes/low-top/adidas/Adidas Ultraboost 5-unisex/xam/giay-adidas-ultraboost-5-nam-xam-01.jpg",
+          "/img-shoes/low-top/adidas/Adidas Ultraboost 5-unisex/xam/giay-adidas-ultraboost-5-nam-xam-02.jpg",
+          "/img-shoes/low-top/adidas/Adidas Ultraboost 5-unisex/xam/giay-adidas-ultraboost-5-nam-xam-03.jpg"
+        ],
+        "images": [
+          "/img-shoes/low-top/adidas/Adidas Ultraboost 5-unisex/xam/giay-adidas-ultraboost-5-nam-xam-01.jpg",
+          "/img-shoes/low-top/adidas/Adidas Ultraboost 5-unisex/xam/giay-adidas-ultraboost-5-nam-xam-02.jpg",
+          "/img-shoes/low-top/adidas/Adidas Ultraboost 5-unisex/xam/giay-adidas-ultraboost-5-nam-xam-03.jpg"
+        ],
+        "thumbnail": "/img-shoes/low-top/adidas/Adidas Ultraboost 5-unisex/xam/giay-adidas-ultraboost-5-nam-xam-01.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "userName": "Khách hàng 1",
+        "rating": 5,
+        "comment": "Sản phẩm đẹp, form giày chuẩn và mang rất êm chân."
+      },
+      {
+        "id": 2,
+        "userName": "Khách hàng 2",
+        "rating": 5,
+        "comment": "Màu sắc bên ngoài giống hình, dễ phối với nhiều trang phục."
+      },
+      {
+        "id": 3,
+        "userName": "Khách hàng 3",
+        "rating": 5,
+        "comment": "Đóng gói cẩn thận, giao hàng nhanh, chất lượng tốt."
+      },
+      {
+        "id": 4,
+        "userName": "Khách hàng 4",
+        "rating": 5,
+        "comment": "Giày nhẹ, đi học và đi chơi đều rất phù hợp."
+      },
+      {
+        "id": 5,
+        "userName": "Khách hàng 5",
+        "rating": 5,
+        "comment": "Chất liệu ổn, đường may chắc chắn, đáng tiền."
+      },
+      {
+        "id": 6,
+        "userName": "Khách hàng 6",
+        "rating": 5,
+        "comment": "Mình mang thử thấy thoải mái, không bị đau chân."
+      },
+      {
+        "id": 7,
+        "userName": "Khách hàng 7",
+        "rating": 5,
+        "comment": "Kiểu dáng trẻ trung, nhìn ngoài đẹp hơn mong đợi."
+      },
+      {
+        "id": 8,
+        "userName": "Khách hàng 8",
+        "rating": 5,
+        "comment": "Sản phẩm đúng mô tả, size vừa chân, rất hài lòng."
+      },
+      {
+        "id": 9,
+        "userName": "Khách hàng 9",
+        "rating": 5,
+        "comment": "Đế giày êm, bám tốt, phù hợp sử dụng hằng ngày."
+      },
+      {
+        "id": 10,
+        "userName": "Khách hàng 10",
+        "rating": 5,
+        "comment": "Sẽ tiếp tục ủng hộ shop vì sản phẩm rất chất lượng."
+      }
+    ],
+    "rating": 5,
+    "views": 534,
+    "createdAt": "2026-06-14T08:00:00",
+    "updatedAt": "2026-06-14T08:00:00"
+  },
+  {
+    "id": "15",
+    "name": "Adidas Ultrarun 5",
+    "alias": "adidas-ultrarun-5",
+    "brand": "Adidas",
+    "type": "low-top",
+    "typeName": "Giày cổ thấp",
+    "gender": [
+      "girl"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "price": 2390000,
+    "discount": 17,
+    "quantity": 30,
+    "importQuantity": 30,
+    "deleted": false,
+    "feature": true,
+    "hasGift": false,
+    "giftName": "",
+    "image": "/img-shoes/low-top/adidas/Adidas Ultrarun 5-girl/giay-adidas-ultrarun-5-nu-trang-tim-01.jpg",
+    "imgLink": "/img-shoes/low-top/adidas/Adidas Ultrarun 5-girl/giay-adidas-ultrarun-5-nu-trang-tim-01.jpg",
+    "shortDescription": "Thiết kế hiện đại, dễ phối đồ, phù hợp sử dụng hằng ngày.",
+    "description": "Sản phẩm được thiết kế trẻ trung, dễ phối đồ, phù hợp để đi học, đi làm, đi chơi và sử dụng hằng ngày. Form dáng hiện đại, chất liệu bền bỉ, mang lại cảm giác thoải mái khi di chuyển.",
+    "categories": [
+      {
+        "id": "ADIDAS",
+        "category": "ADIDAS"
+      }
+    ],
+    "relatedProducts": [
+      16,
+      17,
+      18
+    ],
+    "colors": [
+      {
+        "id": "trang-tim",
+        "name": "Trắng / Tím",
+        "folderName": "trang-tim",
+        "defaultImage": "/img-shoes/low-top/adidas/Adidas Ultrarun 5-girl/giay-adidas-ultrarun-5-nu-trang-tim-01.jpg",
+        "detailImages": [
+          "/img-shoes/low-top/adidas/Adidas Ultrarun 5-girl/giay-adidas-ultrarun-5-nu-trang-tim-01.jpg",
+          "/img-shoes/low-top/adidas/Adidas Ultrarun 5-girl/giay-adidas-ultrarun-5-nu-trang-tim-02.jpg",
+          "/img-shoes/low-top/adidas/Adidas Ultrarun 5-girl/giay-adidas-ultrarun-5-nu-trang-tim-03.jpg"
+        ],
+        "images": [
+          "/img-shoes/low-top/adidas/Adidas Ultrarun 5-girl/giay-adidas-ultrarun-5-nu-trang-tim-01.jpg",
+          "/img-shoes/low-top/adidas/Adidas Ultrarun 5-girl/giay-adidas-ultrarun-5-nu-trang-tim-02.jpg",
+          "/img-shoes/low-top/adidas/Adidas Ultrarun 5-girl/giay-adidas-ultrarun-5-nu-trang-tim-03.jpg"
+        ],
+        "thumbnail": "/img-shoes/low-top/adidas/Adidas Ultrarun 5-girl/giay-adidas-ultrarun-5-nu-trang-tim-01.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "userName": "Khách hàng 1",
+        "rating": 5,
+        "comment": "Sản phẩm đẹp, form giày chuẩn và mang rất êm chân."
+      },
+      {
+        "id": 2,
+        "userName": "Khách hàng 2",
+        "rating": 5,
+        "comment": "Màu sắc bên ngoài giống hình, dễ phối với nhiều trang phục."
+      },
+      {
+        "id": 3,
+        "userName": "Khách hàng 3",
+        "rating": 5,
+        "comment": "Đóng gói cẩn thận, giao hàng nhanh, chất lượng tốt."
+      },
+      {
+        "id": 4,
+        "userName": "Khách hàng 4",
+        "rating": 5,
+        "comment": "Giày nhẹ, đi học và đi chơi đều rất phù hợp."
+      },
+      {
+        "id": 5,
+        "userName": "Khách hàng 5",
+        "rating": 5,
+        "comment": "Chất liệu ổn, đường may chắc chắn, đáng tiền."
+      },
+      {
+        "id": 6,
+        "userName": "Khách hàng 6",
+        "rating": 5,
+        "comment": "Mình mang thử thấy thoải mái, không bị đau chân."
+      },
+      {
+        "id": 7,
+        "userName": "Khách hàng 7",
+        "rating": 5,
+        "comment": "Kiểu dáng trẻ trung, nhìn ngoài đẹp hơn mong đợi."
+      },
+      {
+        "id": 8,
+        "userName": "Khách hàng 8",
+        "rating": 5,
+        "comment": "Sản phẩm đúng mô tả, size vừa chân, rất hài lòng."
+      },
+      {
+        "id": 9,
+        "userName": "Khách hàng 9",
+        "rating": 5,
+        "comment": "Đế giày êm, bám tốt, phù hợp sử dụng hằng ngày."
+      },
+      {
+        "id": 10,
+        "userName": "Khách hàng 10",
+        "rating": 5,
+        "comment": "Sẽ tiếp tục ủng hộ shop vì sản phẩm rất chất lượng."
+      }
+    ],
+    "rating": 5,
+    "views": 565,
+    "createdAt": "2026-06-15T09:00:00",
+    "updatedAt": "2026-06-15T09:00:00"
+  },
+  {
+    "id": "16",
+    "name": "Lacoste Baseshot Premium",
+    "alias": "lacoste-baseshot-premium",
+    "brand": "Lacoste",
+    "type": "low-top",
+    "typeName": "Giày cổ thấp",
+    "gender": [
+      "boy",
+      "girl"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42
+    ],
+    "price": 2290000,
+    "discount": 0,
+    "quantity": 30,
+    "importQuantity": 30,
+    "deleted": false,
+    "feature": false,
+    "hasGift": false,
+    "giftName": "",
+    "image": "/img-shoes/low-top/lacoste/Lacoste Baseshot Premium-unisex/xanh la/giay-lacoste-baseshot-223-premium-nam-xanh-la-01.jpg",
+    "imgLink": "/img-shoes/low-top/lacoste/Lacoste Baseshot Premium-unisex/xanh la/giay-lacoste-baseshot-223-premium-nam-xanh-la-01.jpg",
+    "shortDescription": "Thiết kế hiện đại, dễ phối đồ, phù hợp sử dụng hằng ngày.",
+    "description": "Sản phẩm được thiết kế trẻ trung, dễ phối đồ, phù hợp để đi học, đi làm, đi chơi và sử dụng hằng ngày. Form dáng hiện đại, chất liệu bền bỉ, mang lại cảm giác thoải mái khi di chuyển.",
+    "categories": [
+      {
+        "id": "LACOSTE",
+        "category": "LACOSTE"
+      }
+    ],
+    "relatedProducts": [
+      17,
+      18,
+      19
+    ],
+    "colors": [
+      {
+        "id": "xanh-la",
+        "name": "Xanh lá",
+        "folderName": "xanh la",
+        "defaultImage": "/img-shoes/low-top/lacoste/Lacoste Baseshot Premium-unisex/xanh la/giay-lacoste-baseshot-223-premium-nam-xanh-la-01.jpg",
+        "detailImages": [
+          "/img-shoes/low-top/lacoste/Lacoste Baseshot Premium-unisex/xanh la/giay-lacoste-baseshot-223-premium-nam-xanh-la-01.jpg",
+          "/img-shoes/low-top/lacoste/Lacoste Baseshot Premium-unisex/xanh la/giay-lacoste-baseshot-223-premium-nam-xanh-la-02.jpg",
+          "/img-shoes/low-top/lacoste/Lacoste Baseshot Premium-unisex/xanh la/giay-lacoste-baseshot-223-premium-nam-xanh-la-03.jpg"
+        ],
+        "images": [
+          "/img-shoes/low-top/lacoste/Lacoste Baseshot Premium-unisex/xanh la/giay-lacoste-baseshot-223-premium-nam-xanh-la-01.jpg",
+          "/img-shoes/low-top/lacoste/Lacoste Baseshot Premium-unisex/xanh la/giay-lacoste-baseshot-223-premium-nam-xanh-la-02.jpg",
+          "/img-shoes/low-top/lacoste/Lacoste Baseshot Premium-unisex/xanh la/giay-lacoste-baseshot-223-premium-nam-xanh-la-03.jpg"
+        ],
+        "thumbnail": "/img-shoes/low-top/lacoste/Lacoste Baseshot Premium-unisex/xanh la/giay-lacoste-baseshot-223-premium-nam-xanh-la-01.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "userName": "Khách hàng 1",
+        "rating": 5,
+        "comment": "Sản phẩm đẹp, form giày chuẩn và mang rất êm chân."
+      },
+      {
+        "id": 2,
+        "userName": "Khách hàng 2",
+        "rating": 5,
+        "comment": "Màu sắc bên ngoài giống hình, dễ phối với nhiều trang phục."
+      },
+      {
+        "id": 3,
+        "userName": "Khách hàng 3",
+        "rating": 5,
+        "comment": "Đóng gói cẩn thận, giao hàng nhanh, chất lượng tốt."
+      },
+      {
+        "id": 4,
+        "userName": "Khách hàng 4",
+        "rating": 5,
+        "comment": "Giày nhẹ, đi học và đi chơi đều rất phù hợp."
+      },
+      {
+        "id": 5,
+        "userName": "Khách hàng 5",
+        "rating": 5,
+        "comment": "Chất liệu ổn, đường may chắc chắn, đáng tiền."
+      },
+      {
+        "id": 6,
+        "userName": "Khách hàng 6",
+        "rating": 5,
+        "comment": "Mình mang thử thấy thoải mái, không bị đau chân."
+      },
+      {
+        "id": 7,
+        "userName": "Khách hàng 7",
+        "rating": 5,
+        "comment": "Kiểu dáng trẻ trung, nhìn ngoài đẹp hơn mong đợi."
+      },
+      {
+        "id": 8,
+        "userName": "Khách hàng 8",
+        "rating": 5,
+        "comment": "Sản phẩm đúng mô tả, size vừa chân, rất hài lòng."
+      },
+      {
+        "id": 9,
+        "userName": "Khách hàng 9",
+        "rating": 5,
+        "comment": "Đế giày êm, bám tốt, phù hợp sử dụng hằng ngày."
+      },
+      {
+        "id": 10,
+        "userName": "Khách hàng 10",
+        "rating": 5,
+        "comment": "Sẽ tiếp tục ủng hộ shop vì sản phẩm rất chất lượng."
+      }
+    ],
+    "rating": 5,
+    "views": 596,
+    "createdAt": "2026-06-16T10:00:00",
+    "updatedAt": "2026-06-16T10:00:00"
+  },
+  {
+    "id": "17",
+    "name": "Lacoste Carnaby Pro CGR 124",
+    "alias": "lacoste-carnaby-pro-cgr-124",
+    "brand": "Lacoste",
+    "type": "low-top",
+    "typeName": "Giày cổ thấp",
+    "gender": [
+      "boy",
+      "girl"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42
+    ],
+    "price": 2390000,
+    "discount": 0,
+    "quantity": 30,
+    "importQuantity": 30,
+    "deleted": false,
+    "feature": false,
+    "hasGift": false,
+    "giftName": "",
+    "image": "/img-shoes/low-top/lacoste/Lacoste Carnaby Pro CGR 124-unisex/trang-den/giay-lacoste-carnaby-pro-cgr-124-trang-den-01.jpg",
+    "imgLink": "/img-shoes/low-top/lacoste/Lacoste Carnaby Pro CGR 124-unisex/trang-den/giay-lacoste-carnaby-pro-cgr-124-trang-den-01.jpg",
+    "shortDescription": "Thiết kế hiện đại, dễ phối đồ, phù hợp sử dụng hằng ngày.",
+    "description": "Sản phẩm được thiết kế trẻ trung, dễ phối đồ, phù hợp để đi học, đi làm, đi chơi và sử dụng hằng ngày. Form dáng hiện đại, chất liệu bền bỉ, mang lại cảm giác thoải mái khi di chuyển.",
+    "categories": [
+      {
+        "id": "LACOSTE",
+        "category": "LACOSTE"
+      }
+    ],
+    "relatedProducts": [
+      18,
+      19,
+      20
+    ],
+    "colors": [
+      {
+        "id": "trang-den",
+        "name": "Trắng / Đen",
+        "folderName": "trang-den",
+        "defaultImage": "/img-shoes/low-top/lacoste/Lacoste Carnaby Pro CGR 124-unisex/trang-den/giay-lacoste-carnaby-pro-cgr-124-trang-den-01.jpg",
+        "detailImages": [
+          "/img-shoes/low-top/lacoste/Lacoste Carnaby Pro CGR 124-unisex/trang-den/giay-lacoste-carnaby-pro-cgr-124-trang-den-01.jpg",
+          "/img-shoes/low-top/lacoste/Lacoste Carnaby Pro CGR 124-unisex/trang-den/giay-lacoste-carnaby-pro-cgr-124-trang-den-02.jpg",
+          "/img-shoes/low-top/lacoste/Lacoste Carnaby Pro CGR 124-unisex/trang-den/giay-lacoste-carnaby-pro-cgr-124-trang-den-03.jpg"
+        ],
+        "images": [
+          "/img-shoes/low-top/lacoste/Lacoste Carnaby Pro CGR 124-unisex/trang-den/giay-lacoste-carnaby-pro-cgr-124-trang-den-01.jpg",
+          "/img-shoes/low-top/lacoste/Lacoste Carnaby Pro CGR 124-unisex/trang-den/giay-lacoste-carnaby-pro-cgr-124-trang-den-02.jpg",
+          "/img-shoes/low-top/lacoste/Lacoste Carnaby Pro CGR 124-unisex/trang-den/giay-lacoste-carnaby-pro-cgr-124-trang-den-03.jpg"
+        ],
+        "thumbnail": "/img-shoes/low-top/lacoste/Lacoste Carnaby Pro CGR 124-unisex/trang-den/giay-lacoste-carnaby-pro-cgr-124-trang-den-01.jpg"
+      },
+      {
+        "id": "trang-xanh",
+        "name": "Trắng / Xanh",
+        "folderName": "trang-xanh",
+        "defaultImage": "/img-shoes/low-top/lacoste/Lacoste Carnaby Pro CGR 124-unisex/trang-xanh/giay-lacoste-carnaby-pro-cgr-124-trang-xanh-01.jpg",
+        "detailImages": [
+          "/img-shoes/low-top/lacoste/Lacoste Carnaby Pro CGR 124-unisex/trang-xanh/giay-lacoste-carnaby-pro-cgr-124-trang-xanh-01.jpg",
+          "/img-shoes/low-top/lacoste/Lacoste Carnaby Pro CGR 124-unisex/trang-xanh/giay-lacoste-carnaby-pro-cgr-124-trang-xanh-02.jpg",
+          "/img-shoes/low-top/lacoste/Lacoste Carnaby Pro CGR 124-unisex/trang-xanh/giay-lacoste-carnaby-pro-cgr-124-trang-xanh-03.jpg"
+        ],
+        "images": [
+          "/img-shoes/low-top/lacoste/Lacoste Carnaby Pro CGR 124-unisex/trang-xanh/giay-lacoste-carnaby-pro-cgr-124-trang-xanh-01.jpg",
+          "/img-shoes/low-top/lacoste/Lacoste Carnaby Pro CGR 124-unisex/trang-xanh/giay-lacoste-carnaby-pro-cgr-124-trang-xanh-02.jpg",
+          "/img-shoes/low-top/lacoste/Lacoste Carnaby Pro CGR 124-unisex/trang-xanh/giay-lacoste-carnaby-pro-cgr-124-trang-xanh-03.jpg"
+        ],
+        "thumbnail": "/img-shoes/low-top/lacoste/Lacoste Carnaby Pro CGR 124-unisex/trang-xanh/giay-lacoste-carnaby-pro-cgr-124-trang-xanh-01.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "userName": "Khách hàng 1",
+        "rating": 5,
+        "comment": "Sản phẩm đẹp, form giày chuẩn và mang rất êm chân."
+      },
+      {
+        "id": 2,
+        "userName": "Khách hàng 2",
+        "rating": 5,
+        "comment": "Màu sắc bên ngoài giống hình, dễ phối với nhiều trang phục."
+      },
+      {
+        "id": 3,
+        "userName": "Khách hàng 3",
+        "rating": 5,
+        "comment": "Đóng gói cẩn thận, giao hàng nhanh, chất lượng tốt."
+      },
+      {
+        "id": 4,
+        "userName": "Khách hàng 4",
+        "rating": 5,
+        "comment": "Giày nhẹ, đi học và đi chơi đều rất phù hợp."
+      },
+      {
+        "id": 5,
+        "userName": "Khách hàng 5",
+        "rating": 5,
+        "comment": "Chất liệu ổn, đường may chắc chắn, đáng tiền."
+      },
+      {
+        "id": 6,
+        "userName": "Khách hàng 6",
+        "rating": 5,
+        "comment": "Mình mang thử thấy thoải mái, không bị đau chân."
+      },
+      {
+        "id": 7,
+        "userName": "Khách hàng 7",
+        "rating": 5,
+        "comment": "Kiểu dáng trẻ trung, nhìn ngoài đẹp hơn mong đợi."
+      },
+      {
+        "id": 8,
+        "userName": "Khách hàng 8",
+        "rating": 5,
+        "comment": "Sản phẩm đúng mô tả, size vừa chân, rất hài lòng."
+      },
+      {
+        "id": 9,
+        "userName": "Khách hàng 9",
+        "rating": 5,
+        "comment": "Đế giày êm, bám tốt, phù hợp sử dụng hằng ngày."
+      },
+      {
+        "id": 10,
+        "userName": "Khách hàng 10",
+        "rating": 5,
+        "comment": "Sẽ tiếp tục ủng hộ shop vì sản phẩm rất chất lượng."
+      }
+    ],
+    "rating": 5,
+    "views": 627,
+    "createdAt": "2026-06-17T11:00:00",
+    "updatedAt": "2026-06-17T11:00:00"
+  },
+  {
+    "id": "18",
+    "name": "Lacoste Carnaby Set",
+    "alias": "lacoste-carnaby-set",
+    "brand": "Lacoste",
+    "type": "low-top",
+    "typeName": "Giày cổ thấp",
+    "gender": [
+      "girl"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "price": 2890000,
+    "discount": 14,
+    "quantity": 30,
+    "importQuantity": 30,
+    "deleted": false,
+    "feature": false,
+    "hasGift": true,
+    "giftName": "Tặng tất KienShoes",
+    "image": "/img-shoes/low-top/lacoste/Lacoste Carnaby Set-girl/trang/giay-lacoste-carnaby-set-nu-trang-01.jpg",
+    "imgLink": "/img-shoes/low-top/lacoste/Lacoste Carnaby Set-girl/trang/giay-lacoste-carnaby-set-nu-trang-01.jpg",
+    "shortDescription": "Thiết kế hiện đại, dễ phối đồ, phù hợp sử dụng hằng ngày.",
+    "description": "Sản phẩm được thiết kế trẻ trung, dễ phối đồ, phù hợp để đi học, đi làm, đi chơi và sử dụng hằng ngày. Form dáng hiện đại, chất liệu bền bỉ, mang lại cảm giác thoải mái khi di chuyển.",
+    "categories": [
+      {
+        "id": "LACOSTE",
+        "category": "LACOSTE"
+      }
+    ],
+    "relatedProducts": [
+      19,
+      20,
+      21
+    ],
+    "colors": [
+      {
+        "id": "trang",
+        "name": "Trắng",
+        "folderName": "trang",
+        "defaultImage": "/img-shoes/low-top/lacoste/Lacoste Carnaby Set-girl/trang/giay-lacoste-carnaby-set-nu-trang-01.jpg",
+        "detailImages": [
+          "/img-shoes/low-top/lacoste/Lacoste Carnaby Set-girl/trang/giay-lacoste-carnaby-set-nu-trang-01.jpg",
+          "/img-shoes/low-top/lacoste/Lacoste Carnaby Set-girl/trang/giay-lacoste-carnaby-set-nu-trang-02.jpg",
+          "/img-shoes/low-top/lacoste/Lacoste Carnaby Set-girl/trang/giay-lacoste-carnaby-set-nu-trang-03.jpg"
+        ],
+        "images": [
+          "/img-shoes/low-top/lacoste/Lacoste Carnaby Set-girl/trang/giay-lacoste-carnaby-set-nu-trang-01.jpg",
+          "/img-shoes/low-top/lacoste/Lacoste Carnaby Set-girl/trang/giay-lacoste-carnaby-set-nu-trang-02.jpg",
+          "/img-shoes/low-top/lacoste/Lacoste Carnaby Set-girl/trang/giay-lacoste-carnaby-set-nu-trang-03.jpg"
+        ],
+        "thumbnail": "/img-shoes/low-top/lacoste/Lacoste Carnaby Set-girl/trang/giay-lacoste-carnaby-set-nu-trang-01.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "userName": "Khách hàng 1",
+        "rating": 5,
+        "comment": "Sản phẩm đẹp, form giày chuẩn và mang rất êm chân."
+      },
+      {
+        "id": 2,
+        "userName": "Khách hàng 2",
+        "rating": 5,
+        "comment": "Màu sắc bên ngoài giống hình, dễ phối với nhiều trang phục."
+      },
+      {
+        "id": 3,
+        "userName": "Khách hàng 3",
+        "rating": 5,
+        "comment": "Đóng gói cẩn thận, giao hàng nhanh, chất lượng tốt."
+      },
+      {
+        "id": 4,
+        "userName": "Khách hàng 4",
+        "rating": 5,
+        "comment": "Giày nhẹ, đi học và đi chơi đều rất phù hợp."
+      },
+      {
+        "id": 5,
+        "userName": "Khách hàng 5",
+        "rating": 5,
+        "comment": "Chất liệu ổn, đường may chắc chắn, đáng tiền."
+      },
+      {
+        "id": 6,
+        "userName": "Khách hàng 6",
+        "rating": 5,
+        "comment": "Mình mang thử thấy thoải mái, không bị đau chân."
+      },
+      {
+        "id": 7,
+        "userName": "Khách hàng 7",
+        "rating": 5,
+        "comment": "Kiểu dáng trẻ trung, nhìn ngoài đẹp hơn mong đợi."
+      },
+      {
+        "id": 8,
+        "userName": "Khách hàng 8",
+        "rating": 5,
+        "comment": "Sản phẩm đúng mô tả, size vừa chân, rất hài lòng."
+      },
+      {
+        "id": 9,
+        "userName": "Khách hàng 9",
+        "rating": 5,
+        "comment": "Đế giày êm, bám tốt, phù hợp sử dụng hằng ngày."
+      },
+      {
+        "id": 10,
+        "userName": "Khách hàng 10",
+        "rating": 5,
+        "comment": "Sẽ tiếp tục ủng hộ shop vì sản phẩm rất chất lượng."
+      }
+    ],
+    "rating": 5,
+    "views": 658,
+    "createdAt": "2026-06-18T12:00:00",
+    "updatedAt": "2026-06-18T12:00:00"
+  },
+  {
+    "name": "Lacoste L002 Evo",
+    "alias": "lacoste-l002-evo",
+    "brand": "Lacoste",
+    "type": "low-top",
+    "typeName": "Giày cổ thấp",
+    "gender": [
+      "girl"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "price": 2590000,
+    "discount": 10,
+    "quantity": 29,
+    "importQuantity": 29,
+    "deleted": true,
+    "feature": false,
+    "hasGift": true,
+    "giftName": "giftName 19",
+    "image": "/img-shoes/low-top/lacoste/Lacoste L002 Evo-girl/trang/giay-lacoste-l002-evo-nu-trang-01.jpg",
+    "imgLink": "imgLink 19",
+    "shortDescription": "Thiết kế hiện đại, dễ phối đồ, phù hợp sử dụng hằng ngày.",
+    "description": "Sản phẩm được thiết kế trẻ trung, dễ phối đồ, phù hợp để đi học, đi làm, đi chơi và sử dụng hằng ngày. Form dáng hiện đại, chất liệu bền bỉ, mang lại cảm giác thoải mái khi di chuyển.",
+    "categories": [
+      {
+        "id": "LACOSTE",
+        "category": "LACOSTE"
+      }
+    ],
+    "relatedProducts": [],
+    "colors": [
+      {
+        "id": "default",
+        "name": "Mặc định",
+        "folderName": "default",
+        "defaultImage": "/img-shoes/low-top/lacoste/Lacoste L002 Evo-girl/trang/giay-lacoste-l002-evo-nu-trang-01.jpg",
+        "detailImages": [
+          "/img-shoes/low-top/lacoste/Lacoste L002 Evo-girl/trang/giay-lacoste-l002-evo-nu-trang-01.jpg"
+        ],
+        "images": [
+          "/img-shoes/low-top/lacoste/Lacoste L002 Evo-girl/trang/giay-lacoste-l002-evo-nu-trang-01.jpg"
+        ],
+        "thumbnail": "/img-shoes/low-top/lacoste/Lacoste L002 Evo-girl/trang/giay-lacoste-l002-evo-nu-trang-01.jpg"
+      }
+    ],
+    "reviews": [],
+    "rating": 5,
+    "views": 14,
+    "createdAt": "2026-06-22T07:51:54.272Z",
+    "updatedAt": "2026-06-22T08:24:34.633Z",
+    "id": "19",
+    "salePrice": 2331000,
+    "oldPrice": 2590000,
+    "totalReviews": 0
+  },
+  {
+    "name": "Lacoste L002 Evo",
+    "alias": "lacoste-l002-evo",
+    "brand": "Lacoste",
+    "type": "low-top",
+    "typeName": "Giày cổ thấp",
+    "gender": [
+      "girl"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "price": 2590000,
+    "discount": 10,
+    "quantity": 30,
+    "importQuantity": 30,
+    "deleted": false,
+    "feature": false,
+    "hasGift": true,
+    "giftName": "giftName 20",
+    "image": "/img-shoes/low-top/lacoste/Lacoste L002 Evo-girl/trang/giay-lacoste-l002-evo-nu-trang-01.jpg",
+    "imgLink": "/img-shoes/low-top/lacoste/Lacoste L002 Evo-girl/trang/giay-lacoste-l002-evo-nu-trang-01.jpg",
+    "shortDescription": "Thiết kế hiện đại, dễ phối đồ, phù hợp sử dụng hằng ngày.",
+    "description": "Sản phẩm được thiết kế trẻ trung, dễ phối đồ, phù hợp để đi học, đi làm, đi chơi và sử dụng hằng ngày. Form dáng hiện đại, chất liệu bền bỉ, mang lại cảm giác thoải mái khi di chuyển.",
+    "categories": [
+      {
+        "id": "LACOSTE",
+        "category": "LACOSTE"
+      }
+    ],
+    "relatedProducts": [],
+    "colors": [
+      {
+        "id": "trang",
+        "name": "Trắng",
+        "folderName": "trang",
+        "defaultImage": "/img-shoes/low-top/lacoste/Lacoste L002 Evo-girl/trang/giay-lacoste-l002-evo-nu-trang-01.jpg",
+        "detailImages": [
+          "/img-shoes/low-top/lacoste/Lacoste L002 Evo-girl/trang/giay-lacoste-l002-evo-nu-trang-01.jpg",
+          "/img-shoes/low-top/lacoste/Lacoste L002 Evo-girl/trang/giay-lacoste-l002-evo-nu-trang-02.jpg",
+          "/img-shoes/low-top/lacoste/Lacoste L002 Evo-girl/trang/giay-lacoste-l002-evo-nu-trang-03.jpg"
+        ],
+        "images": [
+          "/img-shoes/low-top/lacoste/Lacoste L002 Evo-girl/trang/giay-lacoste-l002-evo-nu-trang-01.jpg",
+          "/img-shoes/low-top/lacoste/Lacoste L002 Evo-girl/trang/giay-lacoste-l002-evo-nu-trang-02.jpg",
+          "/img-shoes/low-top/lacoste/Lacoste L002 Evo-girl/trang/giay-lacoste-l002-evo-nu-trang-03.jpg"
+        ],
+        "thumbnail": "/img-shoes/low-top/lacoste/Lacoste L002 Evo-girl/trang/giay-lacoste-l002-evo-nu-trang-01.jpg"
+      }
+    ],
+    "reviews": [],
+    "rating": 5,
+    "views": 11,
+    "createdAt": "2026-06-22T08:28:19.229Z",
+    "updatedAt": "2026-06-22T10:42:20.453Z",
+    "id": "20",
+    "salePrice": 2331000,
+    "oldPrice": 2590000,
+    "totalReviews": 0
+  },
+  {
+    "name": "Lacoste L004 224",
+    "alias": "lacoste-l004-224",
+    "brand": "Lacoste",
+    "type": "low-top",
+    "typeName": "Giày cổ thấp",
+    "gender": [
+      "boy"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      40,
+      42,
+      43,
+      44,
+      45
+    ],
+    "price": 2690000,
+    "discount": 5,
+    "quantity": 30,
+    "importQuantity": 30,
+    "deleted": false,
+    "feature": false,
+    "hasGift": false,
+    "giftName": "giftName 21",
+    "image": "/img-shoes/low-top/lacoste/Lacoste L004 224-boy/trang-den/giay-lacoste-l004-224-nam-trang-den-01.jpg",
+    "imgLink": "/img-shoes/low-top/lacoste/Lacoste L004 224-boy/trang-den/giay-lacoste-l004-224-nam-trang-den-01.jpg",
+    "shortDescription": "Thiết kế hiện đại, dễ phối đồ, phù hợp sử dụng hằng ngày.",
+    "description": "Sản phẩm được thiết kế trẻ trung, dễ phối đồ, phù hợp để đi học, đi làm, đi chơi và sử dụng hằng ngày. Form dáng hiện đại, chất liệu bền bỉ, mang lại cảm giác thoải mái khi di chuyển.",
+    "categories": [
+      {
+        "id": "LACOSTE",
+        "category": "LACOSTE"
+      }
+    ],
+    "relatedProducts": [],
+    "colors": [
+      {
+        "id": "trang-den",
+        "name": "Trắng đen",
+        "folderName": "trang-den",
+        "defaultImage": "/img-shoes/low-top/lacoste/Lacoste L004 224-boy/trang-den/giay-lacoste-l004-224-nam-trang-den-01.jpg",
+        "detailImages": [
+          "/img-shoes/low-top/lacoste/Lacoste L004 224-boy/trang-den/giay-lacoste-l004-224-nam-trang-den-01.jpg",
+          "/img-shoes/low-top/lacoste/Lacoste L004 224-boy/trang-den/giay-lacoste-l004-224-nam-trang-den-02.jpg",
+          "/img-shoes/low-top/lacoste/Lacoste L004 224-boy/trang-den/giay-lacoste-l004-224-nam-trang-den-03.jpg"
+        ],
+        "images": [
+          "/img-shoes/low-top/lacoste/Lacoste L004 224-boy/trang-den/giay-lacoste-l004-224-nam-trang-den-01.jpg",
+          "/img-shoes/low-top/lacoste/Lacoste L004 224-boy/trang-den/giay-lacoste-l004-224-nam-trang-den-02.jpg",
+          "/img-shoes/low-top/lacoste/Lacoste L004 224-boy/trang-den/giay-lacoste-l004-224-nam-trang-den-03.jpg"
+        ],
+        "thumbnail": "/img-shoes/low-top/lacoste/Lacoste L004 224-boy/trang-den/giay-lacoste-l004-224-nam-trang-den-01.jpg"
+      }
+    ],
+    "reviews": [],
+    "rating": 0,
+    "views": 26,
+    "createdAt": "2026-06-22T08:34:08.875Z",
+    "updatedAt": "2026-06-22T08:34:08.875Z",
+    "id": "21",
+    "salePrice": 2555500,
+    "oldPrice": 2690000,
+    "totalReviews": 0
+  },
+  {
+    "name": "Lacoste Lineshot 223",
+    "alias": "lacoste-lineshot-223",
+    "brand": "Lacoste",
+    "type": "low-top",
+    "typeName": "Giày cổ thấp",
+    "gender": [
+      "boy",
+      "girl"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      44,
+      43,
+      45
+    ],
+    "price": 2790000,
+    "discount": 3,
+    "quantity": 30,
+    "importQuantity": 30,
+    "deleted": false,
+    "feature": false,
+    "hasGift": true,
+    "giftName": "giftName 22",
+    "image": "/img-shoes/low-top/lacoste/Lacoste Lineshot 223-boy-girl/trang-xanh/giay-lacoste-lineshot-223-nam-trang-xanh-navy-01.jpg",
+    "imgLink": "/img-shoes/low-top/lacoste/Lacoste Lineshot 223-boy-girl/trang-xanh/giay-lacoste-lineshot-223-nam-trang-xanh-navy-01.jpg",
+    "shortDescription": "Thiết kế hiện đại, dễ phối đồ, phù hợp sử dụng hằng ngày.",
+    "description": "Sản phẩm được thiết kế trẻ trung, dễ phối đồ, phù hợp để đi học, đi làm, đi chơi và sử dụng hằng ngày. Form dáng hiện đại, chất liệu bền bỉ, mang lại cảm giác thoải mái khi di chuyển.",
+    "categories": [
+      {
+        "id": "LACOSTE",
+        "category": "LACOSTE"
+      }
+    ],
+    "relatedProducts": [],
+    "colors": [
+      {
+        "id": "trang-xanh",
+        "name": "Trắng xanh",
+        "folderName": "trang-xanh",
+        "defaultImage": "/img-shoes/low-top/lacoste/Lacoste Lineshot 223-boy-girl/trang-xanh/giay-lacoste-lineshot-223-nam-trang-xanh-navy-01.jpg",
+        "detailImages": [
+          "/img-shoes/low-top/lacoste/Lacoste Lineshot 223-boy-girl/trang-xanh/giay-lacoste-lineshot-223-nam-trang-xanh-navy-01.jpg",
+          "/img-shoes/low-top/lacoste/Lacoste Lineshot 223-boy-girl/trang-xanh/giay-lacoste-lineshot-223-nam-trang-xanh-navy-02.jpg",
+          "/img-shoes/low-top/lacoste/Lacoste Lineshot 223-boy-girl/trang-xanh/giay-lacoste-lineshot-223-nam-trang-xanh-navy-03.jpg"
+        ],
+        "images": [
+          "/img-shoes/low-top/lacoste/Lacoste Lineshot 223-boy-girl/trang-xanh/giay-lacoste-lineshot-223-nam-trang-xanh-navy-01.jpg",
+          "/img-shoes/low-top/lacoste/Lacoste Lineshot 223-boy-girl/trang-xanh/giay-lacoste-lineshot-223-nam-trang-xanh-navy-02.jpg",
+          "/img-shoes/low-top/lacoste/Lacoste Lineshot 223-boy-girl/trang-xanh/giay-lacoste-lineshot-223-nam-trang-xanh-navy-03.jpg"
+        ],
+        "thumbnail": "/img-shoes/low-top/lacoste/Lacoste Lineshot 223-boy-girl/trang-xanh/giay-lacoste-lineshot-223-nam-trang-xanh-navy-01.jpg"
+      }
+    ],
+    "reviews": [],
+    "rating": 5,
+    "views": 95,
+    "createdAt": "2026-06-22T08:36:55.158Z",
+    "updatedAt": "2026-06-22T15:56:34.708Z",
+    "id": "22",
+    "salePrice": 2706300,
+    "oldPrice": 2790000,
+    "totalReviews": 0
+  },
+  {
+    "name": "Lacoste T-Clip Leather",
+    "alias": "lacoste-t-clip-leather",
+    "brand": "Lacoste",
+    "type": "low-top",
+    "typeName": "Giày cổ thấp",
+    "gender": [
+      "boy"
+    ],
+    "sizes": [
+      35,
+      36,
+      37,
+      38,
+      39,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "price": 2290000,
+    "discount": 9,
+    "quantity": 30,
+    "importQuantity": 30,
+    "deleted": true,
+    "feature": false,
+    "hasGift": false,
+    "giftName": "giftName 24",
+    "image": "/img-shoes/low-top/lacoste/Lacoste T-Clip Leather-boy/trang-nau/giay-lacoste-t-clip-leather-nam-trang-nau-01.jpg",
+    "imgLink": "/img-shoes/low-top/lacoste/Lacoste T-Clip Leather-boy/trang-nau/giay-lacoste-t-clip-leather-nam-trang-nau-01.jpg",
+    "shortDescription": "Thiết kế hiện đại, dễ phối đồ, phù hợp sử dụng hằng ngày.",
+    "description": "Sản phẩm được thiết kế trẻ trung, dễ phối đồ, phù hợp để đi học, đi làm, đi chơi và sử dụng hằng ngày. Form dáng hiện đại, chất liệu bền bỉ, mang lại cảm giác thoải mái khi di chuyển.",
+    "categories": [
+      {
+        "id": "LACOSTE",
+        "category": "LACOSTE"
+      }
+    ],
+    "relatedProducts": [],
+    "colors": [
+      {
+        "id": "trang-nau",
+        "name": "Trắng / Nâu",
+        "folderName": "trang-nau",
+        "defaultImage": "/img-shoes/low-top/lacoste/Lacoste T-Clip Leather-boy/trang-nau/giay-lacoste-t-clip-leather-nam-trang-nau-01.jpg",
+        "detailImages": [
+          "/img-shoes/low-top/lacoste/Lacoste T-Clip Leather-boy/trang-nau/giay-lacoste-t-clip-leather-nam-trang-nau-01.jpg",
+          "/img-shoes/low-top/lacoste/Lacoste T-Clip Leather-boy/trang-nau/giay-lacoste-t-clip-leather-nam-trang-nau-02.jpg",
+          "/img-shoes/low-top/lacoste/Lacoste T-Clip Leather-boy/trang-nau/giay-lacoste-t-clip-leather-nam-trang-nau-03.jpg"
+        ],
+        "images": [
+          "/img-shoes/low-top/lacoste/Lacoste T-Clip Leather-boy/trang-nau/giay-lacoste-t-clip-leather-nam-trang-nau-01.jpg",
+          "/img-shoes/low-top/lacoste/Lacoste T-Clip Leather-boy/trang-nau/giay-lacoste-t-clip-leather-nam-trang-nau-02.jpg",
+          "/img-shoes/low-top/lacoste/Lacoste T-Clip Leather-boy/trang-nau/giay-lacoste-t-clip-leather-nam-trang-nau-03.jpg"
+        ],
+        "thumbnail": "/img-shoes/low-top/lacoste/Lacoste T-Clip Leather-boy/trang-nau/giay-lacoste-t-clip-leather-nam-trang-nau-01.jpg"
+      },
+      {
+        "id": "trang-xanh-la",
+        "name": "Trắng / Xanh lá",
+        "folderName": "trang-xanh-la",
+        "defaultImage": "/img-shoes/low-top/lacoste/Lacoste T-Clip Leather-boy/trang-xanh la/giay-lacoste-t-clip-leather-nam-trang-xanh-la-01.jpg",
+        "detailImages": [
+          "/img-shoes/low-top/lacoste/Lacoste T-Clip Leather-boy/trang-xanh la/giay-lacoste-t-clip-leather-nam-trang-xanh-la-01.jpg",
+          "/img-shoes/low-top/lacoste/Lacoste T-Clip Leather-boy/trang-xanh la/giay-lacoste-t-clip-leather-nam-trang-xanh-la-02.jpg",
+          "/img-shoes/low-top/lacoste/Lacoste T-Clip Leather-boy/trang-xanh la/giay-lacoste-t-clip-leather-nam-trang-xanh-la-03.jpg"
+        ],
+        "images": [
+          "/img-shoes/low-top/lacoste/Lacoste T-Clip Leather-boy/trang-xanh la/giay-lacoste-t-clip-leather-nam-trang-xanh-la-01.jpg",
+          "/img-shoes/low-top/lacoste/Lacoste T-Clip Leather-boy/trang-xanh la/giay-lacoste-t-clip-leather-nam-trang-xanh-la-02.jpg",
+          "/img-shoes/low-top/lacoste/Lacoste T-Clip Leather-boy/trang-xanh la/giay-lacoste-t-clip-leather-nam-trang-xanh-la-03.jpg"
+        ],
+        "thumbnail": "/img-shoes/low-top/lacoste/Lacoste T-Clip Leather-boy/trang-xanh la/giay-lacoste-t-clip-leather-nam-trang-xanh-la-01.jpg"
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1782120189565,
+        "productId": "24",
+        "username": "Kien",
+        "fullName": "Kien",
+        "userName": "Kien",
+        "rating": 4,
+        "content": "Sản phẩm tốt, êm chân, giao hơi lâu",
+        "comment": "Sản phẩm tốt, êm chân, giao hơi lâu",
+        "images": [],
+        "createdAt": "16:23:09 22/6/2026",
+        "createdAtISO": "2026-06-22T09:23:09.565Z",
+        "updatedAt": "16:46:24 22/6/2026",
+        "updatedAtISO": "2026-06-22T09:46:24.387Z",
+        "hidden": false
+      }
+    ],
+    "rating": 4,
+    "views": 99,
+    "createdAt": "2026-06-22T08:41:52.968Z",
+    "updatedAt": "2026-06-22T16:20:11.718Z",
+    "id": "24",
+    "salePrice": 2083900,
+    "oldPrice": 2290000,
+    "totalReviews": 1
+  },
+  {
+    "name": "Lacoste T-Clip Leather",
+    "alias": "lacoste-t-clip-leather",
+    "brand": "kien",
+    "type": "high-top",
+    "typeName": "Giày cổ cao",
+    "gender": [
+      "boy"
+    ],
+    "sizes": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "price": 2290000,
+    "discount": 0,
+    "quantity": 30,
+    "importQuantity": 30,
+    "deleted": false,
+    "feature": false,
+    "hasGift": false,
+    "giftName": "giftName 25",
+    "image": "/img-shoes/low-top/lacoste/Lacoste T-Clip Leather-boy/trang-nau/giay-lacoste-t-clip-leather-nam-trang-nau-01.jpg",
+    "imgLink": "/img-shoes/low-top/lacoste/Lacoste T-Clip Leather-boy/trang-nau/giay-lacoste-t-clip-leather-nam-trang-nau-01.jpg",
+    "shortDescription": "Thiết kế hiện đại, dễ phối đồ, phù hợp sử dụng hằng ngày.",
+    "description": "Sản phẩm được thiết kế trẻ trung, dễ phối đồ, phù hợp để đi học, đi làm, đi chơi và sử dụng hằng ngày. Form dáng hiện đại, chất liệu bền bỉ, mang lại cảm giác thoải mái khi di chuyển.",
+    "categories": [
+      {
+        "id": "KIEN",
+        "category": "KIEN"
+      }
+    ],
+    "relatedProducts": [],
+    "colors": [
+      {
+        "id": "trang-nau",
+        "name": "Trắng / Nâu",
+        "folderName": "trang-nau",
+        "defaultImage": "/img-shoes/low-top/lacoste/Lacoste T-Clip Leather-boy/trang-nau/giay-lacoste-t-clip-leather-nam-trang-nau-01.jpg",
+        "detailImages": [
+          "/img-shoes/low-top/lacoste/Lacoste T-Clip Leather-boy/trang-nau/giay-lacoste-t-clip-leather-nam-trang-nau-01.jpg",
+          "/img-shoes/low-top/lacoste/Lacoste T-Clip Leather-boy/trang-nau/giay-lacoste-t-clip-leather-nam-trang-nau-02.jpg",
+          "/img-shoes/low-top/lacoste/Lacoste T-Clip Leather-boy/trang-nau/giay-lacoste-t-clip-leather-nam-trang-nau-03.jpg"
+        ],
+        "images": [
+          "/img-shoes/low-top/lacoste/Lacoste T-Clip Leather-boy/trang-nau/giay-lacoste-t-clip-leather-nam-trang-nau-01.jpg",
+          "/img-shoes/low-top/lacoste/Lacoste T-Clip Leather-boy/trang-nau/giay-lacoste-t-clip-leather-nam-trang-nau-02.jpg",
+          "/img-shoes/low-top/lacoste/Lacoste T-Clip Leather-boy/trang-nau/giay-lacoste-t-clip-leather-nam-trang-nau-03.jpg"
+        ],
+        "thumbnail": "/img-shoes/low-top/lacoste/Lacoste T-Clip Leather-boy/trang-nau/giay-lacoste-t-clip-leather-nam-trang-nau-01.jpg"
+      },
+      {
+        "id": "trang-xanh-la",
+        "name": "Trắng / Xanh lá",
+        "folderName": "trang-xanh-la",
+        "defaultImage": "/img-shoes/low-top/lacoste/Lacoste T-Clip Leather-boy/trang-xanh la/giay-lacoste-t-clip-leather-nam-trang-xanh-la-01.jpg",
+        "detailImages": [
+          "/img-shoes/low-top/lacoste/Lacoste T-Clip Leather-boy/trang-xanh la/giay-lacoste-t-clip-leather-nam-trang-xanh-la-01.jpg",
+          "/img-shoes/low-top/lacoste/Lacoste T-Clip Leather-boy/trang-xanh la/giay-lacoste-t-clip-leather-nam-trang-xanh-la-02.jpg",
+          "/img-shoes/low-top/lacoste/Lacoste T-Clip Leather-boy/trang-xanh la/giay-lacoste-t-clip-leather-nam-trang-xanh-la-03.jpg"
+        ],
+        "images": [
+          "/img-shoes/low-top/lacoste/Lacoste T-Clip Leather-boy/trang-xanh la/giay-lacoste-t-clip-leather-nam-trang-xanh-la-01.jpg",
+          "/img-shoes/low-top/lacoste/Lacoste T-Clip Leather-boy/trang-xanh la/giay-lacoste-t-clip-leather-nam-trang-xanh-la-02.jpg",
+          "/img-shoes/low-top/lacoste/Lacoste T-Clip Leather-boy/trang-xanh la/giay-lacoste-t-clip-leather-nam-trang-xanh-la-03.jpg"
+        ],
+        "thumbnail": "/img-shoes/low-top/lacoste/Lacoste T-Clip Leather-boy/trang-xanh la/giay-lacoste-t-clip-leather-nam-trang-xanh-la-01.jpg"
+      }
+    ],
+    "reviews": [],
+    "rating": 0,
+    "views": 52,
+    "createdAt": "2026-06-22T17:52:47.325Z",
+    "updatedAt": "2026-06-22T17:55:54.127Z",
+    "id": "25",
+    "salePrice": 2290000,
+    "oldPrice": 2290000,
+    "totalReviews": 0
+  }
+]
