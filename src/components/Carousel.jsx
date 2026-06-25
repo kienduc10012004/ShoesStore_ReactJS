@@ -51,16 +51,6 @@ const Carousel = () => {
     setCurrentIndex(index)
   }
 
-  // ------ Hàm/Component goToPrev ------
-  const goToPrev = () => {
-    goToSlide(currentIndex - 1)
-  }
-
-  // ------ Hàm/Component goToNext ------
-  const goToNext = () => {
-    goToSlide(currentIndex + 1)
-  }
-
   // ------ Hàm/Component resetAutoPlay ------
   const resetAutoPlay = () => {
     if (timerRef.current) {
@@ -105,11 +95,11 @@ const Carousel = () => {
     const distance = startX - endX
 
     if (distance > 50) {
-      goToNext()
+      goToSlide(currentIndex + 1)
     }
 
     if (distance < -50) {
-      goToPrev()
+      goToSlide(currentIndex - 1)
     }
 
     setIsDragging(false)
@@ -132,11 +122,11 @@ const Carousel = () => {
     const distance = startX - endX
 
     if (distance > 50) {
-      goToNext()
+      goToSlide(currentIndex + 1)
     }
 
     if (distance < -50) {
-      goToPrev()
+      goToSlide(currentIndex - 1)
     }
 
     setIsDragging(false)
@@ -172,7 +162,7 @@ const Carousel = () => {
       {/* Mobile */}
       <div className="relative overflow-hidden rounded-3xl md:hidden">
         <div
-          className="flex cursor-grab transition-transform duration-300 active:cursor-grabbing"
+          className="flex cursor-grab transition-transform duration-600 active:cursor-grabbing"
           style={{
             transform: `translateX(-${currentIndex * 100}%)`,
           }}
@@ -197,22 +187,6 @@ const Carousel = () => {
             </Link>
           ))}
         </div>
-
-        <button
-          type="button"
-          onClick={goToPrev}
-          className="absolute left-3 top-1/2 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full bg-black/40 text-white backdrop-blur hover:bg-black/60"
-        >
-          <i className="fa-solid fa-chevron-left"></i>
-        </button>
-
-        <button
-          type="button"
-          onClick={goToNext}
-          className="absolute right-3 top-1/2 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full bg-black/40 text-white backdrop-blur hover:bg-black/60"
-        >
-          <i className="fa-solid fa-chevron-right"></i>
-        </button>
 
         <div className="absolute bottom-3 left-1/2 flex -translate-x-1/2 gap-2">
           {banners.map((banner, index) => (

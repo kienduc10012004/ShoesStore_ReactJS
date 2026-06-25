@@ -1,8 +1,6 @@
 // ===== THIẾT LẬP MODULE =====
 
-
 // ===== EXPORTS =====
-
 
 // ------ Hàm lấy sale price ------
 export const getSalePrice = (price, discount = 0) => {

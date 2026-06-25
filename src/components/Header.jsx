@@ -120,8 +120,8 @@ const Header = ({ totalQuantity, user, onOpenCart }) => {
     <header className="sticky top-0 z-40 bg-white shadow-sm">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4">
         <Link to="/" className="flex items-center gap-2">
-          <img src="/images/logoWeb.png" alt="logo KienShoes" className="w-8" />
-          <p className="text-2xl font-black text-orange-500">KienShoes</p>
+          <img src="/images/logoWeb.png" alt="logo KienShoes" className="w-15" />
+          <p className="text-2xl font-black text-orange-500">Kien<span className='text-2xl font-black text-black'>Shoes</span></p>
         </Link>
 
         <nav className="hidden items-center gap-3 lg:flex">
@@ -202,7 +202,7 @@ const Header = ({ totalQuantity, user, onOpenCart }) => {
 
         <button
           onClick={() => setIsOpenMobileMenu((prev) => !prev)}
-          className="flex h-11 w-11 cursor-pointer items-center justify-center rounded-xl bg-blue-950 text-white lg:hidden"
+          className="flex h-11 w-11 cursor-pointer items-center justify-center rounded-xl bg-black text-white lg:hidden"
         >
           <i
             className={`fa-solid ${
@@ -236,7 +236,7 @@ const Header = ({ totalQuantity, user, onOpenCart }) => {
                     className="w-8"
                   />
                   <span className="text-xl font-black text-orange-500">
-                    KienShoes
+                    Kien<span className='-xl font-black text-black'>Shoes</span>
                   </span>
                 </Link>
 
@@ -297,13 +297,13 @@ const Header = ({ totalQuantity, user, onOpenCart }) => {
               <div className="mt-5 space-y-3 border-t pt-5">
                 {user ? (
                   <>
-                    <div className="rounded-xl bg-slate-100 px-4 py-3 font-bold text-slate-700">
+                    <div className="rounded-xl text-center bg-slate-100 px-4 py-3 font-bold text-slate-700">
                       Xin chào, {shortUsername(user.username)}
                     </div>
 
                     <button
                       onClick={handleLogout}
-                      className="w-full cursor-pointer rounded-xl bg-red-500 px-4 py-3 text-left font-bold text-white hover:bg-red-600"
+                      className="w-full cursor-pointer rounded-xl bg-red-500 px-4 py-3 font-bold text-center text-white hover:bg-red-600"
                     >
                       Đăng xuất
                     </button>
@@ -311,7 +311,7 @@ const Header = ({ totalQuantity, user, onOpenCart }) => {
                 ) : (
                   <button
                     onClick={handleGoLogin}
-                    className="w-full cursor-pointer rounded-xl border px-4 py-3 text-left font-bold hover:border-orange-500 hover:text-orange-500"
+                    className="w-full cursor-pointer rounded-xl border px-4 py-3 text-center font-bold hover:border-orange-500 hover:text-orange-500"
                   >
                     Đăng nhập
                   </button>
@@ -319,7 +319,7 @@ const Header = ({ totalQuantity, user, onOpenCart }) => {
 
                 <button
                   onClick={handleOpenCart}
-                  className="relative w-full cursor-pointer rounded-xl bg-blue-950 px-4 py-3 text-left font-bold text-white hover:bg-blue-900"
+                  className="relative w-full cursor-pointer rounded-xl bg-black px-4 py-3 font-bold text-white text-center hover:bg-blue-900"
                 >
                   <i className="fa-solid fa-cart-arrow-down mr-2"></i>
                   Giỏ hàng
@@ -332,12 +332,12 @@ const Header = ({ totalQuantity, user, onOpenCart }) => {
                 </button>
               </div>
 
-              <div className="mt-5 rounded-2xl bg-orange-50 p-4">
+              <div className="mt-10 rounded-2xl bg-orange-50 p-4">
                 <p className="text-sm font-bold text-orange-600">
-                  KienShoes
+                  Kien<span className='text-sm font-bold text-black'>Shoes</span>
                 </p>
                 <p className="mt-1 text-sm font-semibold text-slate-600">
-                  Cửa hàng giày thể thao dành cho người trẻ.
+                  Cửa hàng giày sneaker dành cho người trẻ.
                 </p>
               </div>
             </div>

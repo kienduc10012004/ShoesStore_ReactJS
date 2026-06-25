@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 
 // ------ Hàm/Component Footer ------
 const Footer = () => {
-
   // ===== RENDER GIAO DIỆN =====
 
   return (
@@ -14,13 +13,15 @@ const Footer = () => {
       <div className="mx-auto grid max-w-7xl gap-10 px-6 py-12 grid-cols-1 lg:grid-cols-4">
         {/* Logo */}
         <div>
-          <Link to="/" className="flex gap-2 items-center">
+          <Link to="/" className="flex items-center gap-2">
             <img
               src="/images/logoWeb.png"
               alt="logo KienShoes"
-              className="w-8"
+              className="w-15"
             />
-            <p className="text-2xl font-black text-orange-500">KienShoes</p>
+            <p className="text-2xl font-black text-orange-500">
+              Kien<span className="text-2xl font-black text-black">Shoes</span>
+            </p>
           </Link>
 
           <p className="mt-4 leading-7 text-black font-medium">
