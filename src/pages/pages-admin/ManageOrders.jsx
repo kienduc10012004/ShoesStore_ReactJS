@@ -1,6 +1,6 @@
 // ===== IMPORTS =====
 
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import * as XLSX from 'xlsx'
 import { useDispatch, useSelector } from 'react-redux'
@@ -12,6 +12,7 @@ import {
 import { useProductsQuery } from '../../hooks/useProductsQuery.js'
 import { useProductMutations } from '../../hooks/useProductMutations.js'
 import { formatPrice } from '../../utils/adminUtils.js'
+import { showConfirm } from '../../utils/confirmDialog.js'
 
 // ===== HẰNG SỐ, HÀM HỖ TRỢ & STATE SETUP =====
 
@@ -63,6 +64,9 @@ const ManageOrders = () => {
 
   // ------ State lưu status filter ------
   const [statusFilter, setStatusFilter] = useState('ALL')
+
+  // ------ State lưu thông báo export ------
+  const [exportNotice, setExportNotice] = useState(null)
 
   // ------ State lưu cancel modal ------
   const [cancelModal, setCancelModal] = useState({
@@ -228,10 +232,25 @@ const ManageOrders = () => {
       .join('\n')
   }
 
+  // ------ Hàm hiển thị thông báo export ------
+  const showExportNotice = (type, message) => {
+    setExportNotice({ type, message })
+  }
+
+  useEffect(() => {
+    if (!exportNotice) return
+
+    const timer = setTimeout(() => {
+      setExportNotice(null)
+    }, 3000)
+
+    return () => clearTimeout(timer)
+  }, [exportNotice])
+
   // ------ Hàm xử lý export excel ------
   const handleExportExcel = () => {
     if (filteredOrders.length === 0) {
-      alert('Không có đơn hàng nào để xuất Excel.')
+      showExportNotice('warning', 'Không có đơn hàng nào để xuất Excel.')
       return
     }
 
@@ -305,6 +324,10 @@ const ManageOrders = () => {
       .slice(0, 10)
 
     XLSX.writeFile(workbook, `HiKushoes-don-hang-${dateText}.xlsx`)
+    showExportNotice(
+      'success',
+      `Đã xuất ${filteredOrders.length} đơn hàng ra file Excel.`
+    )
   }
 
   // ------ Hàm/Component findProductInMockAPI ------
@@ -517,15 +540,21 @@ const ManageOrders = () => {
   }
 
   // ------ Hàm xử lý delete order ------
-  const handleDeleteOrder = (order) => {
+  const handleDeleteOrder = async (order) => {
     if (!canDeleteOrder(order)) {
       alert('Chỉ được xóa đơn hàng đã giao hoặc đã bị hủy')
       return
     }
 
-    if (confirm(`Bạn có chắc muốn xóa đơn ${order.orderCode}?`)) {
-      dispatch(deleteOrder(order.id))
-    }
+    const confirmDelete = await showConfirm({
+      title: 'Xóa đơn hàng?',
+      message: `Bạn có chắc muốn xóa đơn ${order.orderCode || `KS${order.id}`}?`,
+      confirmText: 'Xóa',
+    })
+
+    if (!confirmDelete) return
+
+    dispatch(deleteOrder(order.id))
   }
 
   // ------ Hàm mở return modal ------
@@ -851,6 +880,36 @@ const ManageOrders = () => {
             </button>
           </div>
         </div>
+
+        {exportNotice && (
+          <div
+            className={`mx-5 mb-5 flex items-start justify-between gap-4 rounded-2xl border px-4 py-3 shadow-sm ${
+              exportNotice.type === 'success'
+                ? 'border-emerald-200 bg-emerald-50 text-emerald-700'
+                : 'border-amber-200 bg-amber-50 text-amber-700'
+            }`}
+          >
+            <div className="flex items-start gap-3">
+              <i
+                className={`fa-solid mt-1 ${
+                  exportNotice.type === 'success'
+                    ? 'fa-circle-check'
+                    : 'fa-circle-exclamation'
+                }`}
+              ></i>
+              <p className="font-bold">{exportNotice.message}</p>
+            </div>
+
+            <button
+              type="button"
+              onClick={() => setExportNotice(null)}
+              className="flex h-8 w-8 shrink-0 cursor-pointer items-center justify-center rounded-full bg-white/70 font-black hover:bg-white"
+              aria-label="Đóng thông báo"
+            >
+              X
+            </button>
+          </div>
+        )}
 
         {isUpdatingStock && (
           <div className="m-5 rounded-2xl bg-blue-50 p-4 font-bold flex flex-col justify-center gap-2 text-blue-600"> 

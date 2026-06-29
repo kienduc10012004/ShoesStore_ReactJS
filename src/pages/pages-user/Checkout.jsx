@@ -8,7 +8,7 @@ import * as Yup from 'yup'
 // ===== HẰNG SỐ, HÀM HỖ TRỢ & STATE SETUP =====
 
 import { addOrder } from '../../redux/slices/orderSlice.js'
-import { clearCart } from '../../redux/slices/cartSlice.js'
+import { removeCartItem } from '../../redux/slices/cartSlice.js'
 
 import { useProductsQuery } from '../../hooks/useProductsQuery.js'
 
@@ -221,7 +221,9 @@ const Checkout = ({ cart = [] }) => {
       dispatch(addOrder(newOrder))
 
       if (checkoutType === 'CART') {
-        dispatch(clearCart())
+        checkoutItems.forEach((item) => {
+          dispatch(removeCartItem(item))
+        })
       }
 
       alert('Đặt hàng thành công!')

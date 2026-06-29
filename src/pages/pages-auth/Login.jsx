@@ -1,63 +1,59 @@
 // ===== IMPORTS =====
 
-import { Link, useNavigate } from 'react-router-dom'
-import { useDispatch } from 'react-redux'
-import { useFormik } from 'formik'
-import * as Yup from 'yup'
-import { loginSuccess } from '../../redux/slices/authSlice.js'
-import { findUserByUsername } from '../../utils/userStorage.js'
+import { Link, useNavigate } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { useFormik } from "formik";
+import * as Yup from "yup";
+import { loginSuccess } from "../../redux/slices/authSlice.js";
+import { findUserByUsername } from "../../utils/userStorage.js";
 
 // ===== HẰNG SỐ, HÀM HỖ TRỢ & STATE SETUP =====
-
 
 // ===== EXPORTS =====
 
 // ------ Đối tượng cấu hình/dữ liệu admin account ------
 export const adminAccount = {
-      username: 'admin',
-      password: 'Admin123@',
-      fullName: 'Lê Đức Kiên',
-      role: 'admin',
-}
+  username: "admin",
+  password: "Admin123@",
+  fullName: "Lê Đức Kiên",
+  role: "admin",
+};
 
 // ------ Hàm/Component Login ------
 const Login = () => {
-
   // ------ Lấy hàm điều hướng trang ------
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   // ------ Lấy hàm dispatch để gửi action Redux ------
-  const dispatch = useDispatch()
+  const dispatch = useDispatch();
 
   // ------ Hàm lấy admin account ------
   const getAdminAccount = () => {
-
     // ------ Khai báo const data ------
-    const data = localStorage.getItem('HiKushoes_admin_account')
+    const data = localStorage.getItem("HiKushoes_admin_account");
 
     if (data) {
-      return JSON.parse(data)
+      return JSON.parse(data);
     }
 
-    return adminAccount
-  }
+    return adminAccount;
+  };
 
   // ------ Đối tượng cấu hình/dữ liệu formik ------
   const formik = useFormik({
     initialValues: {
-      username: '',
-      password: '',
+      username: "",
+      password: "",
     },
 
     validationSchema: Yup.object({
-      username: Yup.string().required('Vui lòng nhập tên đăng nhập'),
-      password: Yup.string().required('Vui lòng nhập mật khẩu'),
+      username: Yup.string().required("Vui lòng nhập tên đăng nhập"),
+      password: Yup.string().required("Vui lòng nhập mật khẩu"),
     }),
 
     onSubmit: (values, { setFieldError }) => {
-
       // ------ Khai báo const admin account defaul ------
-      const adminAccountDefaul = getAdminAccount()
+      const adminAccountDefaul = getAdminAccount();
       if (
         values.username === adminAccountDefaul.username &&
         values.password === adminAccountDefaul.password
@@ -67,36 +63,36 @@ const Login = () => {
             username: adminAccountDefaul.username,
             fullName: adminAccountDefaul.fullName,
             email: adminAccountDefaul.email,
-            role: 'admin',
-          })
-        )
+            role: "admin",
+          }),
+        );
 
-        navigate('/admin')
-        return
+        navigate("/admin");
+        return;
       }
 
       // ------ Khai báo const user ------
-      const user = findUserByUsername(values.username)
+      const user = findUserByUsername(values.username);
 
       if (!user) {
-        setFieldError('username', 'Sai tài khoản hoặc tài khoản chưa tồn tại')
-        return
+        setFieldError("username", "Sai tài khoản hoặc tài khoản chưa tồn tại");
+        return;
       }
 
       if (user.password !== values.password) {
-        setFieldError('password', 'Mật khẩu không đúng')
-        return
+        setFieldError("password", "Mật khẩu không đúng");
+        return;
       }
 
-      if (user.status === 'locked') {
-        setFieldError('username', 'Tài khoản đã bị khóa')
-        return
+      if (user.status === "locked") {
+        setFieldError("username", "Tài khoản đã bị khóa");
+        return;
       }
 
-      dispatch(loginSuccess(user))
-      navigate('/')
+      dispatch(loginSuccess(user));
+      navigate("/");
     },
-  })
+  });
 
   // ===== RENDER GIAO DIỆN =====
 
@@ -167,7 +163,7 @@ const Login = () => {
         </Link>
       </form>
     </main>
-  )
-}
+  );
+};
 
-export default Login
+export default Login;

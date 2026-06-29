@@ -38,6 +38,7 @@ import ForgotPassword from './pages/pages-auth/ForgotPassword.jsx'
 import ResetPassword from './pages/pages-auth/ResetPassword.jsx'
 
 import { scrollToTop } from './utils/scrollToTop.js'
+import { registerConfirmHandler } from './utils/confirmDialog.js'
 import { useProductsQuery } from './hooks/useProductsQuery.js'
 
 import {
@@ -53,6 +54,48 @@ import {
 } from './redux/slices/orderSlice.js'
 
 import BackToTop from "./components/BackToTop.jsx"
+
+// ------ Hàm lấy loại thông báo ------
+const getNoticeType = (value) => {
+  const text = String(value || '').toLowerCase()
+
+  if (text.includes('thành công') || text.startsWith('đã ')) {
+    return 'success'
+  }
+
+  if (
+    text.includes('không') ||
+    text.includes('vui lòng') ||
+    text.includes('hết') ||
+    text.includes('lỗi')
+  ) {
+    return 'warning'
+  }
+
+  return 'info'
+}
+
+// ------ Hàm lấy style thông báo ------
+const getNoticeStyle = (type) => {
+  if (type === 'success') {
+    return {
+      icon: 'fa-circle-check',
+      className: 'border-emerald-200 bg-emerald-50 text-emerald-700',
+    }
+  }
+
+  if (type === 'warning') {
+    return {
+      icon: 'fa-circle-exclamation',
+      className: 'border-amber-200 bg-amber-50 text-amber-700',
+    }
+  }
+
+  return {
+    icon: 'fa-circle-info',
+    className: 'border-blue-200 bg-blue-50 text-blue-700',
+  }
+}
 
 // ------ Hàm/Component RouteChangeHandler ------
 const RouteChangeHandler = () => {
@@ -96,6 +139,12 @@ function App() {
   // ------ State lưu message ------
   const [message, setMessage] = useState('')
 
+  // ------ State lưu thông báo alert ------
+  const [alertNotice, setAlertNotice] = useState(null)
+
+  // ------ State lưu hộp xác nhận ------
+  const [confirmDialog, setConfirmDialog] = useState(null)
+
   useEffect(() => {
     if (!user) {
       dispatch(loadCartByUser(null))
@@ -123,6 +172,56 @@ function App() {
     return () => clearTimeout(timer)
   }, [message])
 
+  useEffect(() => {
+    const originalAlert = window.alert
+
+    window.alert = (value) => {
+      setAlertNotice({
+        id: Date.now(),
+        message: String(value || ''),
+        type: getNoticeType(value),
+      })
+    }
+
+    return () => {
+      window.alert = originalAlert
+    }
+  }, [])
+
+  useEffect(() => {
+    if (!alertNotice) return
+
+    const timer = setTimeout(() => {
+      setAlertNotice(null)
+    }, 3200)
+
+    return () => clearTimeout(timer)
+  }, [alertNotice])
+
+  useEffect(() => {
+    return registerConfirmHandler((options = {}) => {
+      return new Promise((resolve) => {
+        setConfirmDialog({
+          title: options.title || 'Xác nhận thao tác',
+          message: options.message || 'Bạn có chắc muốn thực hiện thao tác này?',
+          confirmText: options.confirmText || 'Xác nhận',
+          cancelText: options.cancelText || 'Hủy',
+          type: options.type || 'danger',
+          resolve,
+        })
+      })
+    })
+  }, [])
+
+  // ------ Hàm đóng hộp xác nhận ------
+  const closeConfirmDialog = (result) => {
+    if (confirmDialog?.resolve) {
+      confirmDialog.resolve(result)
+    }
+
+    setConfirmDialog(null)
+  }
+
   // ------ Hàm/Component requireLogin ------
   const requireLogin = (callback) => {
     if (!user) {
@@ -142,6 +241,10 @@ function App() {
   const totalQuantity = cart.reduce((total, item) => {
     return total + item.cartQuantity
   }, 0)
+
+  // ------ Hằng số style thông báo ------
+  const loginNoticeStyle = getNoticeStyle('warning')
+  const alertNoticeStyle = getNoticeStyle(alertNotice?.type)
 
   // ===== RENDER GIAO DIỆN =====
 
@@ -274,18 +377,49 @@ function App() {
         />
       </Routes>
 
-      {message && (
-        <div className="fixed right-5 top-24 z-[999] rounded-xl bg-red-500 px-5 py-4 font-bold text-white shadow-lg">
-          {message}
-
-          <button
-            onClick={() => setMessage('')}
-            className="ml-4 cursor-pointer font-bold"
+      <div className="fixed right-4 top-24 z-[9999] flex w-[calc(100%-2rem)] max-w-sm flex-col gap-3">
+        {message && (
+          <div
+            className={`flex items-start justify-between gap-4 rounded-2xl border px-4 py-3 shadow-xl ${loginNoticeStyle.className}`}
           >
-            X
-          </button>
-        </div>
-      )}
+            <div className="flex items-start gap-3">
+              <i className={`fa-solid ${loginNoticeStyle.icon} mt-1`}></i>
+              <p className="text-sm font-bold leading-6">{message}</p>
+            </div>
+
+            <button
+              type="button"
+              onClick={() => setMessage('')}
+              className="flex h-8 w-8 shrink-0 cursor-pointer items-center justify-center rounded-full bg-white/70 font-black hover:bg-white"
+              aria-label="Đóng thông báo"
+            >
+              X
+            </button>
+          </div>
+        )}
+
+        {alertNotice && (
+          <div
+            className={`flex items-start justify-between gap-4 rounded-2xl border px-4 py-3 shadow-xl ${alertNoticeStyle.className}`}
+          >
+            <div className="flex items-start gap-3">
+              <i className={`fa-solid ${alertNoticeStyle.icon} mt-1`}></i>
+              <p className="text-sm font-bold leading-6">
+                {alertNotice.message}
+              </p>
+            </div>
+
+            <button
+              type="button"
+              onClick={() => setAlertNotice(null)}
+              className="flex h-8 w-8 shrink-0 cursor-pointer items-center justify-center rounded-full bg-white/70 font-black hover:bg-white"
+              aria-label="Đóng thông báo"
+            >
+              X
+            </button>
+          </div>
+        )}
+      </div>
 
       <CartPopup
         isOpen={isOpenCart}
@@ -295,6 +429,61 @@ function App() {
         onDecrease={(item) => dispatch(decreaseCartItem(item))}
         onRemove={(item) => dispatch(removeCartItem(item))}
       />
+
+      {confirmDialog && (
+        <div className="fixed inset-0 z-[10000] flex items-center justify-center bg-black/50 px-4">
+          <div className="w-full max-w-md rounded-3xl bg-white p-6 shadow-2xl">
+            <div className="flex items-start gap-4">
+              <div
+                className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-full ${
+                  confirmDialog.type === 'danger'
+                    ? 'bg-red-100 text-red-600'
+                    : 'bg-amber-100 text-amber-600'
+                }`}
+              >
+                <i
+                  className={`fa-solid ${
+                    confirmDialog.type === 'danger'
+                      ? 'fa-triangle-exclamation'
+                      : 'fa-circle-question'
+                  }`}
+                ></i>
+              </div>
+
+              <div>
+                <h3 className="text-xl font-black text-slate-900">
+                  {confirmDialog.title}
+                </h3>
+                <p className="mt-2 text-sm font-bold leading-6 text-slate-500">
+                  {confirmDialog.message}
+                </p>
+              </div>
+            </div>
+
+            <div className="mt-6 grid grid-cols-2 gap-3">
+              <button
+                type="button"
+                onClick={() => closeConfirmDialog(false)}
+                className="cursor-pointer rounded-xl bg-slate-100 py-3 font-bold text-slate-700 hover:bg-slate-200"
+              >
+                {confirmDialog.cancelText}
+              </button>
+
+              <button
+                type="button"
+                onClick={() => closeConfirmDialog(true)}
+                className={`cursor-pointer rounded-xl py-3 font-bold text-white ${
+                  confirmDialog.type === 'danger'
+                    ? 'bg-red-600 hover:bg-red-700'
+                    : 'bg-orange-600 hover:bg-orange-700'
+                }`}
+              >
+                {confirmDialog.confirmText}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
 
       <BackToTop isHidden={isOpenCart} />
     </div>

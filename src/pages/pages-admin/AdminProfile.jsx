@@ -4,6 +4,7 @@ import { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { loginSuccess } from '../../redux/slices/authSlice.js'
 import { adminAccount } from '../pages-auth/Login.jsx'
+import { showConfirm } from '../../utils/confirmDialog.js'
 
 // ===== HẰNG SỐ, HÀM HỖ TRỢ & STATE SETUP =====
 
@@ -151,15 +152,18 @@ const AdminProfile = () => {
   }
 
   // ------ Hàm xử lý submit ------
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault()
 
     if (!validateForm()) return
 
     // ------ Khai báo const confirm update ------
-    const confirmUpdate = confirm(
-      'Bạn có chắc muốn lưu thay đổi thông tin admin không?'
-    )
+    const confirmUpdate = await showConfirm({
+      title: 'Lưu thông tin admin?',
+      message: 'Bạn có chắc muốn lưu thay đổi thông tin admin không?',
+      confirmText: 'Lưu',
+      type: 'warning',
+    })
 
     if (!confirmUpdate) return
 

@@ -4,6 +4,7 @@ import { useMemo, useRef, useState } from 'react'
 import { useProductsQuery } from '../../hooks/useProductsQuery.js'
 import { useProductMutations } from '../../hooks/useProductMutations.js'
 import { formatPrice } from '../../utils/adminUtils.js'
+import { showConfirm } from '../../utils/confirmDialog.js'
 import LoadingSpinner from '../../components/LoadingSpinner.jsx'
 
 // ===== HẰNG SỐ, HÀM HỖ TRỢ & STATE SETUP =====
@@ -677,7 +678,13 @@ const ManageProducts = () => {
 
   // ------ Hàm xử lý delete ------
   const handleDelete = async (product) => {
-    if (!confirm('Bạn có chắc muốn xóa vĩnh viễn sản phẩm này?')) return
+    const confirmDelete = await showConfirm({
+      title: 'Xóa sản phẩm?',
+      message: `Bạn có chắc muốn xóa vĩnh viễn sản phẩm "${product.name}" không?`,
+      confirmText: 'Xóa',
+    })
+
+    if (!confirmDelete) return
 
     try {
       await deleteProductMutation.mutateAsync(product.id)

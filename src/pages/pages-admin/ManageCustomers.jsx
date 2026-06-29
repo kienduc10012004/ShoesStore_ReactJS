@@ -4,6 +4,7 @@ import { useMemo, useState } from 'react'
 import { useSelector } from 'react-redux'
 import { getAllCustomers } from '../../utils/adminUtils.js'
 import { adminAccount } from '../pages-auth/Login.jsx'
+import { showConfirm } from '../../utils/confirmDialog.js'
 
 // ===== HẰNG SỐ, HÀM HỖ TRỢ & STATE SETUP =====
 
@@ -199,7 +200,7 @@ const ManageCustomers = () => {
   }
 
   // ------ Hàm xử lý delete customer ------
-  const handleDeleteCustomer = (username) => {
+  const handleDeleteCustomer = async (username) => {
 
     // ------ Khai báo const customer ------
     const customer = customers.find((item) => item.username === username)
@@ -214,7 +215,13 @@ const ManageCustomers = () => {
       return
     }
 
-    if (confirm(`Bạn có chắc muốn xóa tài khoản "${username}" không?`)) {
+    const confirmDelete = await showConfirm({
+      title: 'Xóa tài khoản?',
+      message: `Bạn có chắc muốn xóa tài khoản "${username}" không?`,
+      confirmText: 'Xóa',
+    })
+
+    if (confirmDelete) {
 
       // ------ Khai báo const new customers ------
       const newCustomers = customers.filter(

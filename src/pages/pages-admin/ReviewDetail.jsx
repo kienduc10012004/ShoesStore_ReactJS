@@ -4,6 +4,7 @@ import { useMemo, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { useProductQuery } from '../../hooks/useProductQuery.js'
 import { useProductMutations } from '../../hooks/useProductMutations.js'
+import { showConfirm } from '../../utils/confirmDialog.js'
 import LoadingSpinner from '../../components/LoadingSpinner.jsx'
 
 // ===== HẰNG SỐ, HÀM HỖ TRỢ & STATE SETUP =====
@@ -149,8 +150,14 @@ const ReviewDetail = () => {
   }
 
   // ------ Hàm xử lý delete review ------
-  const handleDeleteReview = (review) => {
-    if (!confirm('Bạn có chắc muốn xóa đánh giá này?')) return
+  const handleDeleteReview = async (review) => {
+    const confirmDelete = await showConfirm({
+      title: 'Xóa đánh giá?',
+      message: 'Bạn có chắc muốn xóa đánh giá này?',
+      confirmText: 'Xóa',
+    })
+
+    if (!confirmDelete) return
 
     // ------ Khai báo const new reviews ------
     const newReviews = reviews.filter((item) => String(item.id) !== String(review.id))

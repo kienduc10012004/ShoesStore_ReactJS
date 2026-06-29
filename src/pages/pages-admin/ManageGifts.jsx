@@ -7,6 +7,7 @@ import {
   deleteGift,
   updateGift,
 } from "../../redux/slices/giftSlice.js";
+import { showConfirm } from "../../utils/confirmDialog.js";
 
 // ===== HẰNG SỐ, HÀM HỖ TRỢ & STATE SETUP =====
 
@@ -151,12 +152,14 @@ const ManageGifts = () => {
   };
 
   // ------ Hàm xử lý delete gift ------
-  const handleDeleteGift = (gift) => {
+  const handleDeleteGift = async (gift) => {
 
     // ------ Khai báo const confirm delete ------
-    const confirmDelete = confirm(
-      `Bạn có chắc muốn xóa quà tặng "${gift.name}"?`,
-    );
+    const confirmDelete = await showConfirm({
+      title: "Xóa quà tặng?",
+      message: `Bạn có chắc muốn xóa quà tặng "${gift.name}"?`,
+      confirmText: "Xóa",
+    });
 
     if (!confirmDelete) return;
 
@@ -182,13 +185,15 @@ const ManageGifts = () => {
   };
 
   // ------ Hàm xử lý delete selected gifts ------
-  const handleDeleteSelectedGifts = () => {
+  const handleDeleteSelectedGifts = async () => {
     if (selectedGiftIds.length === 0) return;
 
     // ------ Khai báo const confirm delete ------
-    const confirmDelete = confirm(
-      `Bạn có chắc muốn xóa ${selectedGiftIds.length} quà tặng đã chọn?`,
-    );
+    const confirmDelete = await showConfirm({
+      title: "Xóa quà tặng đã chọn?",
+      message: `Bạn có chắc muốn xóa ${selectedGiftIds.length} quà tặng đã chọn?`,
+      confirmText: "Xóa",
+    });
 
     if (!confirmDelete) return;
 
@@ -200,13 +205,15 @@ const ManageGifts = () => {
   };
 
   // ------ Hàm xử lý delete all gifts ------
-  const handleDeleteAllGifts = () => {
+  const handleDeleteAllGifts = async () => {
     if (gifts.length === 0) return;
 
     // ------ Khai báo const confirm delete ------
-    const confirmDelete = confirm(
-      `Bạn có chắc muốn xóa tất cả ${gifts.length} quà tặng?`,
-    );
+    const confirmDelete = await showConfirm({
+      title: "Xóa tất cả quà tặng?",
+      message: `Bạn có chắc muốn xóa tất cả ${gifts.length} quà tặng?`,
+      confirmText: "Xóa tất cả",
+    });
 
     if (!confirmDelete) return;
 

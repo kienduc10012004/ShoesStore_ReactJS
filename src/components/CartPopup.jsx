@@ -31,6 +31,9 @@ const CartPopup = ({
   // ------ State lưu selected keys ------
   const [selectedKeys, setSelectedKeys] = useState([])
 
+  // ------ State lưu modal xác nhận xóa ------
+  const [removeConfirm, setRemoveConfirm] = useState(null)
+
   // ------ Hàm/Component cartKeys ------
   const cartKeys = useMemo(() => {
     return cart.map((item) => getCartItemKey(item))
@@ -87,18 +90,11 @@ const CartPopup = ({
       return
     }
 
-    // ------ Khai báo const confirm delete ------
-    const confirmDelete = confirm(
-      `Bạn có chắc muốn xóa ${selectedItems.length} sản phẩm đã chọn?`,
-    )
-
-    if (!confirmDelete) return
-
-    selectedItems.forEach((item) => {
-      onRemove(item)
+    setRemoveConfirm({
+      items: selectedItems,
+      title: 'Xóa sản phẩm đã chọn?',
+      message: `Bạn có chắc muốn xóa ${selectedItems.length} sản phẩm khỏi giỏ hàng không?`,
     })
-
-    setSelectedKeys([])
   }
 
   // ------ Hàm xử lý checkout ------
@@ -120,13 +116,29 @@ const CartPopup = ({
 
   // ------ Hàm xử lý remove one ------
   const handleRemoveOne = (item) => {
+    setRemoveConfirm({
+      items: [item],
+      title: 'Xóa sản phẩm?',
+      message: `Bạn có chắc muốn xóa "${item.name}" khỏi giỏ hàng không?`,
+    })
+  }
 
-    // ------ Khai báo const key ------
-    const key = getCartItemKey(item)
+  // ------ Hàm xác nhận xóa sản phẩm ------
+  const handleConfirmRemove = () => {
+    if (!removeConfirm) return
 
-    onRemove(item)
+    // ------ Khai báo const remove keys ------
+    const removeKeys = removeConfirm.items.map((item) => getCartItemKey(item))
 
-    setSelectedKeys((prev) => prev.filter((itemKey) => itemKey !== key))
+    removeConfirm.items.forEach((item) => {
+      onRemove(item)
+    })
+
+    setSelectedKeys((prev) => {
+      return prev.filter((itemKey) => !removeKeys.includes(itemKey))
+    })
+
+    setRemoveConfirm(null)
   }
 
   // ------ Hàm xử lý decrease ------
@@ -349,6 +361,45 @@ const CartPopup = ({
               </button>
             </div>
           </>
+        )}
+
+        {removeConfirm && (
+          <div className="absolute inset-0 z-20 flex items-center justify-center bg-black/45 px-5">
+            <div className="w-full rounded-2xl bg-white p-5 shadow-2xl">
+              <div className="flex items-start gap-3">
+                <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-red-100 text-red-600">
+                  <i className="fa-solid fa-trash"></i>
+                </div>
+
+                <div>
+                  <h3 className="text-lg font-black text-slate-900">
+                    {removeConfirm.title}
+                  </h3>
+                  <p className="mt-1 text-sm font-bold leading-6 text-slate-500">
+                    {removeConfirm.message}
+                  </p>
+                </div>
+              </div>
+
+              <div className="mt-5 grid grid-cols-2 gap-3">
+                <button
+                  type="button"
+                  onClick={() => setRemoveConfirm(null)}
+                  className="cursor-pointer rounded-xl bg-slate-100 py-3 font-bold text-slate-700 hover:bg-slate-200"
+                >
+                  Hủy
+                </button>
+
+                <button
+                  type="button"
+                  onClick={handleConfirmRemove}
+                  className="cursor-pointer rounded-xl bg-red-600 py-3 font-bold text-white hover:bg-red-700"
+                >
+                  Xóa
+                </button>
+              </div>
+            </div>
+          </div>
         )}
       </div>
     </div>
