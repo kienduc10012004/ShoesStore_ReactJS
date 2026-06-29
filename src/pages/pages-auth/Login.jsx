@@ -6,6 +6,7 @@ import { useFormik } from "formik";
 import * as Yup from "yup";
 import { loginSuccess } from "../../redux/slices/authSlice.js";
 import { findUserByUsername } from "../../utils/userStorage.js";
+import { readJsonStorage } from "../../utils/storage.js";
 
 // ===== HẰNG SỐ, HÀM HỖ TRỢ & STATE SETUP =====
 
@@ -29,14 +30,7 @@ const Login = () => {
 
   // ------ Hàm lấy admin account ------
   const getAdminAccount = () => {
-    // ------ Khai báo const data ------
-    const data = localStorage.getItem("HiKushoes_admin_account");
-
-    if (data) {
-      return JSON.parse(data);
-    }
-
-    return adminAccount;
+    return readJsonStorage("HiKushoes_admin_account", adminAccount);
   };
 
   // ------ Đối tượng cấu hình/dữ liệu formik ------

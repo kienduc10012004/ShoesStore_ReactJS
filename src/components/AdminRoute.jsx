@@ -1,6 +1,7 @@
 // ===== IMPORTS =====
 
 import { Navigate } from 'react-router-dom'
+import { readJsonStorage } from '../utils/storage.js'
 
 // ===== HẰNG SỐ, HÀM HỖ TRỢ & STATE SETUP =====
 
@@ -8,8 +9,7 @@ import { Navigate } from 'react-router-dom'
 const AdminRoute = ({ children }) => {
 
   // ------ Khai báo const user ------
-  const user =
-    JSON.parse(localStorage.getItem('HiKushoes_user')) || null
+  const user = readJsonStorage('HiKushoes_user', null)
 
   if (!user) {
     return <Navigate to="/" replace />

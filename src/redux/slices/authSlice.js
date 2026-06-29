@@ -1,15 +1,13 @@
 // ===== IMPORTS =====
 
 import { createSlice } from '@reduxjs/toolkit'
+import { readJsonStorage } from '../../utils/storage.js'
 
 // ===== HẰNG SỐ, HÀM HỖ TRỢ & STATE SETUP =====
 
 // ------ Hàm lấy user from local storage ------
 const getUserFromLocalStorage = () => {
-
-  // ------ Khai báo const data ------
-  const data = localStorage.getItem('HiKushoes_user')
-  return data ? JSON.parse(data) : null
+  return readJsonStorage('HiKushoes_user', null)
 }
 
 // ------ Đối tượng cấu hình/dữ liệu auth slice ------

@@ -1,5 +1,7 @@
 // ===== THIẾT LẬP MODULE =====
 
+import { readJsonStorage } from './storage.js'
+
 // ------ Khai báo const user key ------
 const USER_KEY = 'HiKushoes_users'
 
@@ -7,7 +9,9 @@ const USER_KEY = 'HiKushoes_users'
 
 // ------ Hàm lấy users ------
 export const getUsers = () => {
-  return JSON.parse(localStorage.getItem(USER_KEY)) || []
+  const users = readJsonStorage(USER_KEY, [])
+
+  return Array.isArray(users) ? users : []
 }
 
 // ------ Hàm/Component saveUsers ------

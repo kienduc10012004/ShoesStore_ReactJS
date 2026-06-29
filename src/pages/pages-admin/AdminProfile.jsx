@@ -5,6 +5,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { loginSuccess } from '../../redux/slices/authSlice.js'
 import { adminAccount } from '../pages-auth/Login.jsx'
 import { showConfirm } from '../../utils/confirmDialog.js'
+import { readJsonStorage } from '../../utils/storage.js'
 
 // ===== HẰNG SỐ, HÀM HỖ TRỢ & STATE SETUP =====
 
@@ -29,14 +30,10 @@ const defaultAdmin = {
 // ------ Hàm lấy admin account ------
 const getAdminAccount = () => {
 
-  // ------ Khai báo const data ------
-  const data = localStorage.getItem(ADMIN_STORAGE_KEY)
+  // ------ Khai báo const admin ------
+  const admin = readJsonStorage(ADMIN_STORAGE_KEY, null)
 
-  if (data) {
-
-    // ------ Khai báo const admin ------
-    const admin = JSON.parse(data)
-
+  if (admin) {
     return {
       username: admin.username || defaultAdmin.username,
       password: admin.password || defaultAdmin.password,
